@@ -1,0 +1,11 @@
+Count  Avg. elapsed  Min. elapsed  Max. elapsed  Avg. bytes  Min. bytes  Max. bytes  Label
+   10       13918.4         13461         15122    509960.0      509960      509960  Meinig School of Biomedical Engineering
+   10        3273.8          3018          4192    211125.0      211125      211125  Electrical and Computer Engineering
+   10        6578.8          6210          8110    278480.0      278480      278480  Sibley School of Mechanical and Aerospace Engineering
+   10        4363.2          3928          5509    277877.0      277877      277877  Smith School of Chemical and Biomolecular Engineering
+   10        5435.9          5006          6609    211303.0      211303      211303  Applied and Engineering Physics
+   10        3044.8          2779          3745    123606.0      123606      123606  Civil and Environmental Engineering
+   10        2516.9          2182          3153    150719.0      150719      150719  Materials Science and Engineering
+   10        1892.0          1734          2557     83474.0       83474       83474  Earth and Atmospheric Sciences
+   10        1379.4          1281          2027     58019.0       58019       58019  Operations Research and Information Engineering
+   10        1434.6          1338          1997     47237.0       47237       47237  Statistical Science

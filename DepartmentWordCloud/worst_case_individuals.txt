@@ -1,0 +1,91 @@
+--------------------------------------------------------
+
+This query determines the costliest department by MESH terms.
+
+--------------------------------------------------------
+
+
+PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bibo:     <http://purl.org/ontology/bibo/>
+PREFIX vivo:     <http://vivoweb.org/ontology/core#>
+PREFIX vivoc:    <http://scholars.cornell.edu/ontology/vivoc.owl#>
+PREFIX hr:   <http://scholars.cornell.edu/ontology/hr.owl#>
+PREFIX foaf:     <http://xmlns.com/foaf/0.1/>
+SELECT 
+  (SAMPLE(?department) AS ?DEPARTMENT) 
+  (SAMPLE(?name) AS ?NAME) 
+  (COUNT(DISTINCT(?keyword)) as ?KWCOUNT) 
+  (COUNT(DISTINCT(?meshLabel)) as ?MESHCOUNT) 
+  (COUNT(DISTINCT(?infkeyword)) as ?INFCOUNT)
+WHERE {
+  {
+    ?department a vivo:AcademicDepartment .
+    ?department hr:hasPosition ?posn .
+    ?department rdfs:label ?name .
+    ?posn a vivo:Position .
+    ?posn vivo:relates ?person .
+    ?person a foaf:Person .
+    ?person rdfs:label ?label .
+    ?person vivo:relatedBy ?auth .
+    ?auth a vivo:Authorship .
+    ?auth vivo:relates ?pub .
+    ?pub a bibo:Document .
+    
+    ?pub vivo:freetextKeyword ?keyword . 
+  } UNION {
+    ?department a vivo:AcademicDepartment .
+    ?department hr:hasPosition ?posn .
+    ?department rdfs:label ?name .
+    ?posn a vivo:Position .
+    ?posn vivo:relates ?person .
+    ?person a foaf:Person .
+    ?person rdfs:label ?label .
+    ?person vivo:relatedBy ?auth .
+    ?auth a vivo:Authorship .
+    ?auth vivo:relates ?pub .
+    ?pub a bibo:Document .
+    
+    ?pub vivo:hasSubjectArea ?mesh .
+    ?mesh a vivoc:MeshTerm .
+    ?mesh rdfs:label ?meshLabel .
+  } UNION {
+    ?department a vivo:AcademicDepartment .
+    ?department hr:hasPosition ?posn .
+    ?department rdfs:label ?name .
+    ?posn a vivo:Position .
+    ?posn vivo:relates ?person .
+    ?person a foaf:Person .
+    ?person rdfs:label ?label .
+    ?person vivo:relatedBy ?auth .
+    ?auth a vivo:Authorship .
+    ?auth vivo:relates ?pub .
+    ?pub a bibo:Document .
+    
+    ?pub vivoc:inferredKeyword ?infkeyword . 
+  }
+}
+GROUP BY ?department
+ORDER BY DESC(?MESHCOUNT + ?INFCOUNT + ?KWCOUNT)
+LIMIT 10
+
+--------------------------------------------------------
+
+The results of that query:
+
+--------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+| DEPARTMENT                                        | NAME                                                    | KWCOUNT | MESHCOUNT | INFCOUNT |
+================================================================================================================================================
+| <http://scholars.cornell.edu/individual/org68763> | "Meinig School of Biomedical Engineering"               | 1380    | 1844      | 2325     |
+| <http://scholars.cornell.edu/individual/org49841> | "Electrical and Computer Engineering"                   | 2007    | 558       | 2062     |
+| <http://scholars.cornell.edu/individual/org66771> | "Sibley School of Mechanical and Aerospace Engineering" | 1317    | 909       | 1942     |
+| <http://scholars.cornell.edu/individual/org80541> | "Smith School of Chemical and Biomolecular Engineering" | 876     | 923       | 1908     |
+| <http://scholars.cornell.edu/individual/org93835> | "Applied and Engineering Physics"                       | 859     | 645       | 1757     |
+| <http://scholars.cornell.edu/individual/org15006> | "Civil and Environmental Engineering"                   | 1312    | 337       | 1359     |
+| <http://scholars.cornell.edu/individual/org42189> | "Materials Science and Engineering"                     | 755     | 428       | 1721     |
+| <http://scholars.cornell.edu/individual/org32427> | "Earth and Atmospheric Sciences"                        | 738     | 95        | 917      |
+| <http://scholars.cornell.edu/individual/org62682> | "Operations Research and Information Engineering"       | 898     | 107       | 613      |
+| <http://scholars.cornell.edu/individual/org95974> | "Statistical Science"                                   | 518     | 50        | 276      |
+------------------------------------------------------------------------------------------------------------------------------------------------
