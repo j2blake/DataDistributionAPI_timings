@@ -1,0 +1,83 @@
+--------------------------------
+dwc_uniona.ttl 
+--------------------------------
+
+Statement count: 13650
+Distinct subjects: 23
+Distinct predicates: 4
+Distinct types: 0
+
+PREDICATES
+5587  http://scholars.cornell.edu/ontology/vivoc.owl#inferredKeyword
+1494  http://vivoweb.org/ontology/core#freetextKeyword
+3271  http://vivoweb.org/ontology/core#hasSubjectArea
+3298  http://www.w3.org/2000/01/rdf-schema#label
+
+TYPES
+
+
+--------------------------------
+dwc_drill.ttl 
+--------------------------------
+
+Statement count: 13672
+Distinct subjects: 45
+Distinct predicates: 4
+Distinct types: 0
+
+PREDICATES
+5587  http://scholars.cornell.edu/ontology/vivoc.owl#inferredKeyword
+1494  http://vivoweb.org/ontology/core#freetextKeyword
+3271  http://vivoweb.org/ontology/core#hasSubjectArea
+3320  http://www.w3.org/2000/01/rdf-schema#label
+
+TYPES
+
+
+--------------------------------
+dwc_deeper.ttl 
+--------------------------------
+
+Statement count: 16883
+Distinct subjects: 4183
+Distinct predicates: 7
+Distinct types: 2
+
+PREDICATES
+5587  http://scholars.cornell.edu/ontology/vivoc.owl#inferredKeyword
+1494  http://vivoweb.org/ontology/core#freetextKeyword
+3271  http://vivoweb.org/ontology/core#hasSubjectArea
+1172  http://vivoweb.org/ontology/core#relatedBy
+1172  http://vivoweb.org/ontology/core#relates
+2316  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+1871  http://www.w3.org/2000/01/rdf-schema#label
+
+TYPES
+1144  http://purl.org/ontology/bibo/Document
+1172  http://vivoweb.org/ontology/core#Authorship
+
+
+
+
+--------------------------------
+dwc_double.ttl 
+--------------------------------
+
+Statement count: 18332
+Distinct subjects: 2361
+Distinct predicates: 7
+Distinct types: 2
+
+PREDICATES
+5587  http://scholars.cornell.edu/ontology/vivoc.owl#inferredKeyword
+1494  http://vivoweb.org/ontology/core#freetextKeyword
+3271  http://vivoweb.org/ontology/core#hasSubjectArea
+1172  http://vivoweb.org/ontology/core#relatedBy
+1172  http://vivoweb.org/ontology/core#relates
+2316  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+3320  http://www.w3.org/2000/01/rdf-schema#label
+
+TYPES
+1144  http://purl.org/ontology/bibo/Document
+1172  http://vivoweb.org/ontology/core#Authorship
+

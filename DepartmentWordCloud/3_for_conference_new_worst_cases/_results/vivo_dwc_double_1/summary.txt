@@ -1,0 +1,11 @@
+Count  Avg. elapsed  Min. elapsed  Max. elapsed  Avg. bytes  Min. bytes  Max. bytes  Label
+   10       15550.8         15273         16695   3479367.0     3479367     3479367  School of Integrative Plant Science
+   10        6855.1          6737          6987   1613308.0     1613308     1613308  Molecular Biology and Genetics
+   10        4096.4          3998          4205    823808.0      823808      823808  Meinig School of Biomedical Engineering
+   10        5150.7          5071          5204   1169521.0     1169521     1169521  Ecology and Evolutionary Biology
+   10        4328.7          4178          4489    993071.0      993071      993071  Food Science
+   10        3118.9          3034          3553    737679.0      737679      737679  Animal Science
+   10        3856.5          3737          4037    740244.0      740244      740244  Sibley School of Mechanical and Aerospace Engineering
+   10        3981.5          3866          4165    876983.0      876983      876983  Natural Resources
+   10        3174.0          3151          3202    731542.0      731542      731542  Entomology
+   10        4610.9          4379          4754    994888.0      994888      994888  Electrical and Computer Engineering

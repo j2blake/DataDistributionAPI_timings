@@ -1,0 +1,101 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect,"LABEL"
+1501041285247,334,Get data,200,OK,The thread Group 1-1,text,true,,957861,226,1,1,318,0,39,Electrical and Computer Engineering
+1501041285585,247,Get data,200,OK,The thread Group 1-1,text,true,,701819,226,1,1,233,0,0,Materials Science and Engineering
+1501041285832,241,Get data,200,OK,The thread Group 1-1,text,true,,624122,226,1,1,230,0,0,Meinig School of Biomedical Engineering
+1501041286074,289,Get data,200,OK,The thread Group 1-1,text,true,,568802,226,1,1,279,0,0,Civil and Environmental Engineering
+1501041286363,219,Get data,200,OK,The thread Group 1-1,text,true,,677339,226,1,1,207,0,0,Smith School of Chemical and Biomolecular Engineering 
+1501041286583,234,Get data,200,OK,The thread Group 1-1,text,true,,687403,226,1,1,223,0,0,Sibley School of Mechanical and Aerospace Engineering
+1501041286817,238,Get data,200,OK,The thread Group 1-1,text,true,,546230,226,1,1,229,0,0,Applied and Engineering Physics
+1501041287055,291,Get data,200,OK,The thread Group 1-1,text,true,,767597,226,1,1,278,0,0,Earth and Atmospheric Sciences
+1501041287347,200,Get data,200,OK,The thread Group 1-1,text,true,,608315,226,1,1,190,0,1,Samuel Curtis Johnson Graduate School of Management
+1501041287548,90,Get data,200,OK,The thread Group 1-1,text,true,,172653,226,1,1,88,0,0,Office of the Dean of Engineering
+1501041287639,270,Get data,200,OK,The thread Group 1-1,text,true,,957861,226,1,1,253,0,0,Electrical and Computer Engineering
+1501041287909,239,Get data,200,OK,The thread Group 1-1,text,true,,701819,226,1,1,227,0,0,Materials Science and Engineering
+1501041288148,235,Get data,200,OK,The thread Group 1-1,text,true,,624122,226,1,1,224,0,0,Meinig School of Biomedical Engineering
+1501041288383,290,Get data,200,OK,The thread Group 1-1,text,true,,568802,226,1,1,280,0,0,Civil and Environmental Engineering
+1501041288673,221,Get data,200,OK,The thread Group 1-1,text,true,,677339,226,1,1,210,0,0,Smith School of Chemical and Biomolecular Engineering 
+1501041288895,247,Get data,200,OK,The thread Group 1-1,text,true,,687403,226,1,1,236,0,0,Sibley School of Mechanical and Aerospace Engineering
+1501041289143,250,Get data,200,OK,The thread Group 1-1,text,true,,546230,226,1,1,241,0,0,Applied and Engineering Physics
+1501041289394,304,Get data,200,OK,The thread Group 1-1,text,true,,767597,226,1,1,289,0,0,Earth and Atmospheric Sciences
+1501041289698,206,Get data,200,OK,The thread Group 1-1,text,true,,608315,226,1,1,196,0,0,Samuel Curtis Johnson Graduate School of Management
+1501041289905,95,Get data,200,OK,The thread Group 1-1,text,true,,172653,226,1,1,92,0,0,Office of the Dean of Engineering
+1501041290000,277,Get data,200,OK,The thread Group 1-1,text,true,,957861,226,1,1,260,0,0,Electrical and Computer Engineering
+1501041290277,224,Get data,200,OK,The thread Group 1-1,text,true,,701819,226,1,1,212,0,0,Materials Science and Engineering
+1501041290501,223,Get data,200,OK,The thread Group 1-1,text,true,,624122,226,1,1,213,0,0,Meinig School of Biomedical Engineering
+1501041290724,293,Get data,200,OK,The thread Group 1-1,text,true,,568802,226,1,1,283,0,0,Civil and Environmental Engineering
+1501041291017,223,Get data,200,OK,The thread Group 1-1,text,true,,677339,226,1,1,212,0,0,Smith School of Chemical and Biomolecular Engineering 
+1501041291241,248,Get data,200,OK,The thread Group 1-1,text,true,,687403,226,1,1,236,0,0,Sibley School of Mechanical and Aerospace Engineering
+1501041291489,256,Get data,200,OK,The thread Group 1-1,text,true,,546230,226,1,1,247,0,1,Applied and Engineering Physics
+1501041291746,305,Get data,200,OK,The thread Group 1-1,text,true,,767597,226,1,1,292,0,0,Earth and Atmospheric Sciences
+1501041292051,208,Get data,200,OK,The thread Group 1-1,text,true,,608315,226,1,1,198,0,0,Samuel Curtis Johnson Graduate School of Management
+1501041292259,94,Get data,200,OK,The thread Group 1-1,text,true,,172653,226,1,1,91,0,0,Office of the Dean of Engineering
+1501041292354,284,Get data,200,OK,The thread Group 1-1,text,true,,957861,226,1,1,266,0,0,Electrical and Computer Engineering
+1501041292638,234,Get data,200,OK,The thread Group 1-1,text,true,,701819,226,1,1,221,0,0,Materials Science and Engineering
+1501041292872,232,Get data,200,OK,The thread Group 1-1,text,true,,624122,226,1,1,221,0,0,Meinig School of Biomedical Engineering
+1501041293104,291,Get data,200,OK,The thread Group 1-1,text,true,,568802,226,1,1,282,0,0,Civil and Environmental Engineering
+1501041293396,233,Get data,200,OK,The thread Group 1-1,text,true,,677339,226,1,1,218,0,0,Smith School of Chemical and Biomolecular Engineering 
+1501041293629,267,Get data,200,OK,The thread Group 1-1,text,true,,687403,226,1,1,255,0,1,Sibley School of Mechanical and Aerospace Engineering
+1501041293897,251,Get data,200,OK,The thread Group 1-1,text,true,,546230,226,1,1,242,0,0,Applied and Engineering Physics
+1501041294148,306,Get data,200,OK,The thread Group 1-1,text,true,,767597,226,1,1,292,0,0,Earth and Atmospheric Sciences
+1501041294455,206,Get data,200,OK,The thread Group 1-1,text,true,,608315,226,1,1,196,0,0,Samuel Curtis Johnson Graduate School of Management
+1501041294662,94,Get data,200,OK,The thread Group 1-1,text,true,,172653,226,1,1,91,0,0,Office of the Dean of Engineering
+1501041294756,283,Get data,200,OK,The thread Group 1-1,text,true,,957861,226,1,1,266,0,0,Electrical and Computer Engineering
+1501041295040,235,Get data,200,OK,The thread Group 1-1,text,true,,701819,226,1,1,223,0,0,Materials Science and Engineering
+1501041295274,232,Get data,200,OK,The thread Group 1-1,text,true,,624122,226,1,1,222,0,0,Meinig School of Biomedical Engineering
+1501041295506,287,Get data,200,OK,The thread Group 1-1,text,true,,568802,226,1,1,277,0,0,Civil and Environmental Engineering
+1501041295793,223,Get data,200,OK,The thread Group 1-1,text,true,,677339,226,1,1,212,0,1,Smith School of Chemical and Biomolecular Engineering 
+1501041296017,244,Get data,200,OK,The thread Group 1-1,text,true,,687403,226,1,1,231,0,0,Sibley School of Mechanical and Aerospace Engineering
+1501041296261,250,Get data,200,OK,The thread Group 1-1,text,true,,546230,226,1,1,241,0,0,Applied and Engineering Physics
+1501041296512,303,Get data,200,OK,The thread Group 1-1,text,true,,767597,226,1,1,289,0,0,Earth and Atmospheric Sciences
+1501041296816,211,Get data,200,OK,The thread Group 1-1,text,true,,608315,226,1,1,201,0,0,Samuel Curtis Johnson Graduate School of Management
+1501041297027,95,Get data,200,OK,The thread Group 1-1,text,true,,172653,226,1,1,92,0,0,Office of the Dean of Engineering
+1501041297122,283,Get data,200,OK,The thread Group 1-1,text,true,,957861,226,1,1,266,0,0,Electrical and Computer Engineering
+1501041297405,233,Get data,200,OK,The thread Group 1-1,text,true,,701819,226,1,1,221,0,0,Materials Science and Engineering
+1501041297638,234,Get data,200,OK,The thread Group 1-1,text,true,,624122,226,1,1,223,0,0,Meinig School of Biomedical Engineering
+1501041297872,289,Get data,200,OK,The thread Group 1-1,text,true,,568802,226,1,1,279,0,1,Civil and Environmental Engineering
+1501041298161,224,Get data,200,OK,The thread Group 1-1,text,true,,677339,226,1,1,212,0,0,Smith School of Chemical and Biomolecular Engineering 
+1501041298385,249,Get data,200,OK,The thread Group 1-1,text,true,,687403,226,1,1,237,0,0,Sibley School of Mechanical and Aerospace Engineering
+1501041298634,254,Get data,200,OK,The thread Group 1-1,text,true,,546230,226,1,1,243,0,0,Applied and Engineering Physics
+1501041298888,306,Get data,200,OK,The thread Group 1-1,text,true,,767597,226,1,1,292,0,0,Earth and Atmospheric Sciences
+1501041299195,207,Get data,200,OK,The thread Group 1-1,text,true,,608315,226,1,1,197,0,0,Samuel Curtis Johnson Graduate School of Management
+1501041299403,98,Get data,200,OK,The thread Group 1-1,text,true,,172653,226,1,1,96,0,0,Office of the Dean of Engineering
+1501041299502,285,Get data,200,OK,The thread Group 1-1,text,true,,957861,226,1,1,267,0,0,Electrical and Computer Engineering
+1501041299787,232,Get data,200,OK,The thread Group 1-1,text,true,,701819,226,1,1,220,0,0,Materials Science and Engineering
+1501041300020,249,Get data,200,OK,The thread Group 1-1,text,true,,624122,226,1,1,238,0,1,Meinig School of Biomedical Engineering
+1501041300270,287,Get data,200,OK,The thread Group 1-1,text,true,,568802,226,1,1,277,0,0,Civil and Environmental Engineering
+1501041300557,230,Get data,200,OK,The thread Group 1-1,text,true,,677339,226,1,1,219,0,0,Smith School of Chemical and Biomolecular Engineering 
+1501041300788,246,Get data,200,OK,The thread Group 1-1,text,true,,687403,226,1,1,234,0,0,Sibley School of Mechanical and Aerospace Engineering
+1501041301035,249,Get data,200,OK,The thread Group 1-1,text,true,,546230,226,1,1,240,0,0,Applied and Engineering Physics
+1501041301284,311,Get data,200,OK,The thread Group 1-1,text,true,,767597,226,1,1,297,0,0,Earth and Atmospheric Sciences
+1501041301595,210,Get data,200,OK,The thread Group 1-1,text,true,,608315,226,1,1,199,0,0,Samuel Curtis Johnson Graduate School of Management
+1501041301805,95,Get data,200,OK,The thread Group 1-1,text,true,,172653,226,1,1,92,0,0,Office of the Dean of Engineering
+1501041301900,292,Get data,200,OK,The thread Group 1-1,text,true,,957861,226,1,1,275,0,0,Electrical and Computer Engineering
+1501041302193,241,Get data,200,OK,The thread Group 1-1,text,true,,701819,226,1,1,229,0,0,Materials Science and Engineering
+1501041302434,238,Get data,200,OK,The thread Group 1-1,text,true,,624122,226,1,1,227,0,0,Meinig School of Biomedical Engineering
+1501041302672,286,Get data,200,OK,The thread Group 1-1,text,true,,568802,226,1,1,276,0,0,Civil and Environmental Engineering
+1501041302958,224,Get data,200,OK,The thread Group 1-1,text,true,,677339,226,1,1,212,0,0,Smith School of Chemical and Biomolecular Engineering 
+1501041303183,248,Get data,200,OK,The thread Group 1-1,text,true,,687403,226,1,1,236,0,0,Sibley School of Mechanical and Aerospace Engineering
+1501041303431,252,Get data,200,OK,The thread Group 1-1,text,true,,546230,226,1,1,243,0,0,Applied and Engineering Physics
+1501041303683,304,Get data,200,OK,The thread Group 1-1,text,true,,767597,226,1,1,290,0,0,Earth and Atmospheric Sciences
+1501041303987,208,Get data,200,OK,The thread Group 1-1,text,true,,608315,226,1,1,198,0,0,Samuel Curtis Johnson Graduate School of Management
+1501041304195,101,Get data,200,OK,The thread Group 1-1,text,true,,172653,226,1,1,98,0,1,Office of the Dean of Engineering
+1501041304297,288,Get data,200,OK,The thread Group 1-1,text,true,,957861,226,1,1,271,0,0,Electrical and Computer Engineering
+1501041304586,233,Get data,200,OK,The thread Group 1-1,text,true,,701819,226,1,1,222,0,0,Materials Science and Engineering
+1501041304820,232,Get data,200,OK,The thread Group 1-1,text,true,,624122,226,1,1,221,0,0,Meinig School of Biomedical Engineering
+1501041305053,287,Get data,200,OK,The thread Group 1-1,text,true,,568802,226,1,1,277,0,0,Civil and Environmental Engineering
+1501041305340,226,Get data,200,OK,The thread Group 1-1,text,true,,677339,226,1,1,215,0,0,Smith School of Chemical and Biomolecular Engineering 
+1501041305567,246,Get data,200,OK,The thread Group 1-1,text,true,,687403,226,1,1,233,0,0,Sibley School of Mechanical and Aerospace Engineering
+1501041305813,253,Get data,200,OK,The thread Group 1-1,text,true,,546230,226,1,1,244,0,0,Applied and Engineering Physics
+1501041306067,303,Get data,200,OK,The thread Group 1-1,text,true,,767597,226,1,1,290,0,0,Earth and Atmospheric Sciences
+1501041306370,208,Get data,200,OK,The thread Group 1-1,text,true,,608315,226,1,1,198,0,1,Samuel Curtis Johnson Graduate School of Management
+1501041306578,95,Get data,200,OK,The thread Group 1-1,text,true,,172653,226,1,1,93,0,0,Office of the Dean of Engineering
+1501041306674,282,Get data,200,OK,The thread Group 1-1,text,true,,957861,226,1,1,265,0,0,Electrical and Computer Engineering
+1501041306956,233,Get data,200,OK,The thread Group 1-1,text,true,,701819,226,1,1,221,0,0,Materials Science and Engineering
+1501041307190,232,Get data,200,OK,The thread Group 1-1,text,true,,624122,226,1,1,221,0,0,Meinig School of Biomedical Engineering
+1501041307423,288,Get data,200,OK,The thread Group 1-1,text,true,,568802,226,1,1,279,0,0,Civil and Environmental Engineering
+1501041307711,223,Get data,200,OK,The thread Group 1-1,text,true,,677339,226,1,1,211,0,0,Smith School of Chemical and Biomolecular Engineering 
+1501041307934,253,Get data,200,OK,The thread Group 1-1,text,true,,687403,226,1,1,241,0,0,Sibley School of Mechanical and Aerospace Engineering
+1501041308187,258,Get data,200,OK,The thread Group 1-1,text,true,,546230,226,1,1,249,0,0,Applied and Engineering Physics
+1501041308445,307,Get data,200,OK,The thread Group 1-1,text,true,,767597,226,1,1,294,0,1,Earth and Atmospheric Sciences
+1501041308753,207,Get data,200,OK,The thread Group 1-1,text,true,,608315,226,1,1,196,0,0,Samuel Curtis Johnson Graduate School of Management
+1501041308960,93,Get data,200,OK,The thread Group 1-1,text,true,,172653,226,1,1,91,0,0,Office of the Dean of Engineering

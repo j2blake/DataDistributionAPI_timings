@@ -1,0 +1,89 @@
+2017-07-24 19:09:57,269 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2017-07-24 19:09:57,279 INFO o.a.j.JMeter: Loading user properties from: /Users/jeb228/Software/forMac/JMeter/apache-jmeter-3.2/bin/user.properties
+2017-07-24 19:09:57,280 INFO o.a.j.JMeter: Loading system properties from: /Users/jeb228/Software/forMac/JMeter/apache-jmeter-3.2/bin/system.properties
+2017-07-24 19:09:57,280 INFO o.a.j.JMeter: Setting JMeter property: dir.base=/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/DepartmentWordCloud/_results
+2017-07-24 19:09:57,280 INFO o.a.j.JMeter: Setting JMeter property: dir.output=/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/DepartmentWordCloud/_results/vivo_dwc_double_1
+2017-07-24 19:09:57,280 INFO o.a.j.JMeter: Setting JMeter property: context.path=vivo
+2017-07-24 19:09:57,280 INFO o.a.j.JMeter: Setting JMeter property: action.name=dwc_double
+2017-07-24 19:09:57,281 INFO o.a.j.JMeter: Setting JMeter property: file.uris=/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/DepartmentWordCloud/DepartmentUris.csv
+2017-07-24 19:09:57,281 INFO o.a.j.JMeter: Setting JMeter property: sample_variables=LABEL
+2017-07-24 19:09:57,285 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2017-07-24 19:09:57,285 INFO o.a.j.JMeter: Version 3.2 r1790748
+2017-07-24 19:09:57,285 INFO o.a.j.JMeter: java.version=1.8.0_131
+2017-07-24 19:09:57,285 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2017-07-24 19:09:57,285 INFO o.a.j.JMeter: os.name=Mac OS X
+2017-07-24 19:09:57,286 INFO o.a.j.JMeter: os.arch=x86_64
+2017-07-24 19:09:57,286 INFO o.a.j.JMeter: os.version=10.12.6
+2017-07-24 19:09:57,286 INFO o.a.j.JMeter: file.encoding=UTF-8
+2017-07-24 19:09:57,286 INFO o.a.j.JMeter: Max memory     =536870912
+2017-07-24 19:09:57,286 INFO o.a.j.JMeter: Available Processors =4
+2017-07-24 19:09:57,289 INFO o.a.j.JMeter: Default Locale=English (United States)
+2017-07-24 19:09:57,289 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2017-07-24 19:09:57,289 INFO o.a.j.JMeter: JMeterHome=/Users/jeb228/Software/forMac/JMeter/apache-jmeter-3.2
+2017-07-24 19:09:57,289 INFO o.a.j.JMeter: user.dir  =/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/DepartmentWordCloud/_results
+2017-07-24 19:09:57,289 INFO o.a.j.JMeter: PWD       =/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/DepartmentWordCloud/_results
+2017-07-24 19:09:57,295 INFO o.a.j.JMeter: IP: 10.0.1.36 Name: lib-jeb228-maclap.local FullName: 10.0.1.36
+2017-07-24 19:09:57,297 INFO o.a.j.s.FileServer: Default base='/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/DepartmentWordCloud/_results'
+2017-07-24 19:09:57,297 INFO o.a.j.s.FileServer: Set new base='/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/DepartmentWordCloud'
+2017-07-24 19:09:57,384 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2017-07-24 19:09:57,397 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2017-07-24 19:09:57,410 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2017-07-24 19:09:57,415 INFO o.a.j.s.SaveService: Loading file: /Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/DepartmentWordCloud/DepartmentWordClouds.jmx
+2017-07-24 19:09:57,451 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-24 19:09:57,451 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-24 19:09:57,451 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-24 19:09:57,451 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-24 19:09:57,451 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2017-07-24 19:09:57,451 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2017-07-24 19:09:57,459 INFO o.a.j.JMeter: Creating summariser <summary>
+2017-07-24 19:09:57,467 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-07-24 19:09:57,467 INFO o.a.j.s.SampleEvent: List of sample_variables: [LABEL]
+2017-07-24 19:09:57,467 INFO o.a.j.s.SampleEvent: List of sample_variables: [LABEL]
+2017-07-24 19:09:57,470 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2017-07-24 19:09:57,470 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2017-07-24 19:09:57,776 INFO o.a.j.JMeter: Running test (1500937797776)
+2017-07-24 19:09:57,821 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : The thread Group
+2017-07-24 19:09:57,821 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group The thread Group.
+2017-07-24 19:09:57,821 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-07-24 19:09:57,821 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-07-24 19:09:57,826 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-07-24 19:09:57,826 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-07-24 19:09:58,003 INFO o.a.j.t.JMeterThread: Thread started: The thread Group 1-1
+2017-07-24 19:09:58,005 INFO o.a.j.s.FileServer: Stored: /Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/DepartmentWordCloud/DepartmentUris.csv
+2017-07-24 19:09:58,020 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = lib-jeb228-maclap.local
+2017-07-24 19:09:58,023 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2017-07-24 19:09:58,032 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2017-07-24 19:09:58,032 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2017-07-24 19:09:58,032 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2017-07-24 19:09:58,032 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2017-07-24 19:10:02,639 INFO o.a.j.r.Summariser: summary +      1 in 00:00:05 =    0.2/s Avg:  4583 Min:  4583 Max:  4583 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 19:10:30,639 INFO o.a.j.r.Summariser: summary +      5 in 00:00:28 =    0.2/s Avg:  5599 Min:  4278 Max:  6619 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 19:10:30,639 INFO o.a.j.r.Summariser: summary =      6 in 00:00:33 =    0.2/s Avg:  5430 Min:  4278 Max:  6619 Err:     0 (0.00%)
+2017-07-24 19:11:00,392 INFO o.a.j.r.Summariser: summary +      8 in 00:00:30 =    0.3/s Avg:  3718 Min:   613 Max:  6038 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 19:11:00,392 INFO o.a.j.r.Summariser: summary =     14 in 00:01:03 =    0.2/s Avg:  4452 Min:   613 Max:  6619 Err:     0 (0.00%)
+2017-07-24 19:11:32,515 INFO o.a.j.r.Summariser: summary +      8 in 00:00:32 =    0.2/s Avg:  4015 Min:   516 Max:  5899 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 19:11:32,515 INFO o.a.j.r.Summariser: summary =     22 in 00:01:35 =    0.2/s Avg:  4293 Min:   516 Max:  6619 Err:     0 (0.00%)
+2017-07-24 19:12:00,743 INFO o.a.j.r.Summariser: summary +      7 in 00:00:28 =    0.2/s Avg:  4032 Min:   945 Max:  5545 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 19:12:00,744 INFO o.a.j.r.Summariser: summary =     29 in 00:02:03 =    0.2/s Avg:  4230 Min:   516 Max:  6619 Err:     0 (0.00%)
+2017-07-24 19:12:32,554 INFO o.a.j.r.Summariser: summary +      8 in 00:00:32 =    0.3/s Avg:  3975 Min:   577 Max:  5193 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 19:12:32,554 INFO o.a.j.r.Summariser: summary =     37 in 00:02:35 =    0.2/s Avg:  4175 Min:   516 Max:  6619 Err:     0 (0.00%)
+2017-07-24 19:13:01,260 INFO o.a.j.r.Summariser: summary +      8 in 00:00:29 =    0.3/s Avg:  3587 Min:   632 Max:  5716 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 19:13:01,260 INFO o.a.j.r.Summariser: summary =     45 in 00:03:03 =    0.2/s Avg:  4070 Min:   516 Max:  6619 Err:     0 (0.00%)
+2017-07-24 19:13:30,517 INFO o.a.j.r.Summariser: summary +      8 in 00:00:29 =    0.3/s Avg:  3656 Min:   673 Max:  5671 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 19:13:30,517 INFO o.a.j.r.Summariser: summary =     53 in 00:03:33 =    0.2/s Avg:  4008 Min:   516 Max:  6619 Err:     0 (0.00%)
+2017-07-24 19:14:03,786 INFO o.a.j.r.Summariser: summary +      9 in 00:00:33 =    0.3/s Avg:  3696 Min:   474 Max:  5880 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 19:14:03,786 INFO o.a.j.r.Summariser: summary =     62 in 00:04:06 =    0.3/s Avg:  3962 Min:   474 Max:  6619 Err:     0 (0.00%)
+2017-07-24 19:14:30,827 INFO o.a.j.r.Summariser: summary +      6 in 00:00:27 =    0.2/s Avg:  4506 Min:  3007 Max:  5692 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 19:14:30,827 INFO o.a.j.r.Summariser: summary =     68 in 00:04:33 =    0.2/s Avg:  4010 Min:   474 Max:  6619 Err:     0 (0.00%)
+2017-07-24 19:15:02,149 INFO o.a.j.r.Summariser: summary +      9 in 00:00:31 =    0.3/s Avg:  3480 Min:   436 Max:  5077 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 19:15:02,149 INFO o.a.j.r.Summariser: summary =     77 in 00:05:04 =    0.3/s Avg:  3948 Min:   436 Max:  6619 Err:     0 (0.00%)
+2017-07-24 19:15:30,313 INFO o.a.j.r.Summariser: summary +      8 in 00:00:28 =    0.3/s Avg:  3520 Min:   479 Max:  5669 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 19:15:30,313 INFO o.a.j.r.Summariser: summary =     85 in 00:05:33 =    0.3/s Avg:  3908 Min:   436 Max:  6619 Err:     0 (0.00%)
+2017-07-24 19:16:02,241 INFO o.a.j.r.Summariser: summary +      9 in 00:00:32 =    0.3/s Avg:  3547 Min:   476 Max:  5583 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 19:16:02,242 INFO o.a.j.r.Summariser: summary =     94 in 00:06:04 =    0.3/s Avg:  3873 Min:   436 Max:  6619 Err:     0 (0.00%)
+2017-07-24 19:16:23,352 INFO o.a.j.t.JMeterThread: Thread is done: The thread Group 1-1
+2017-07-24 19:16:23,352 INFO o.a.j.t.JMeterThread: Thread finished: The thread Group 1-1
+2017-07-24 19:16:23,352 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-07-24 19:16:23,353 INFO o.a.j.s.FileServer: Close: /Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/DepartmentWordCloud/DepartmentUris.csv
+2017-07-24 19:16:23,353 INFO o.a.j.r.Summariser: summary +      6 in 00:00:21 =    0.3/s Avg:  3518 Min:   555 Max:  5589 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+2017-07-24 19:16:23,354 INFO o.a.j.r.Summariser: summary =    100 in 00:06:26 =    0.3/s Avg:  3852 Min:   436 Max:  6619 Err:     0 (0.00%)

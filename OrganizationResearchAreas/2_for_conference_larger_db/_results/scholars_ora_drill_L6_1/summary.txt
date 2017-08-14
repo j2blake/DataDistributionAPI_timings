@@ -1,0 +1,11 @@
+Count  Avg. elapsed  Min. elapsed  Max. elapsed  Avg. bytes  Min. bytes  Max. bytes  Label
+   10         294.9           273           385    957861.0      957861      957861  Electrical and Computer Engineering
+   10         244.2           226           334    701819.0      701819      701819  Materials Science and Engineering
+   10         247.0           222           338    624122.0      624122      624122  Meinig School of Biomedical Engineering
+   10         307.6           275           418    568802.0      568802      568802  Civil and Environmental Engineering
+   10         237.3           211           318    677339.0      677339      677339  Smith School of Chemical and Biomolecular Engineering 
+   10         262.2           237           339    687403.0      687403      687403  Sibley School of Mechanical and Aerospace Engineering
+   10         263.8           238           358    546230.0      546230      546230  Applied and Engineering Physics
+   10         310.4           290           429    767597.0      767597      767597  Earth and Atmospheric Sciences
+   10         209.2           195           275    608315.0      608315      608315  Samuel Curtis Johnson Graduate School of Management
+   10          96.8            90           126    172653.0      172653      172653  Office of the Dean of Engineering

@@ -1,0 +1,21 @@
+Count  Avg. elapsed  Min. elapsed  Max. elapsed  Avg. bytes  Min. bytes  Max. bytes  Label
+   25         602.0           562          1089    298007.0      298007      298007  Shuler, Michael Louis
+   25         524.4           506           706    226307.0      226307      226307  Craighead, Harold G.
+   25         154.5           148           216    192918.0      192918      192918  Bonassar, Lawrence
+   25         112.2           107           159    137036.0      137036      137036  King, Michael R.
+   25         124.2           111           152    110964.0      110964      110964  Muller, David Anthony
+   25          96.7            87           118    114930.0      114930      114930  Wang, Yi
+   25         107.7           101           117    112454.0      112454      112454  Giannelis, Emmanuel P.
+   25         118.0           110           135    136046.0      136046      136046  DeLisa, Matthew
+   25          91.7            84           107     88327.0       88327       88327  Butcher, Jonathan T.
+   25         490.2           465           504    150557.0      150557      150557  Ober, Christopher Kemper
+   25          77.2            72            86     80427.0       80427       80427  Lion, Leonard William
+   25          63.0            59            80     89705.0       89705       89705  Zipfel, Warren R.
+   25          80.7            67            85     78917.0       78917       78917  Reeves, Anthony P.
+   25         430.2           421           441     98527.0       98527       98527  Schlom, Darrell
+   25          53.1            46            58     59174.0       59174       59174  Stroock, Abraham Duncan
+   25          59.6            56            75     76979.0       76979       76979  Lammerding, Jan
+   25          72.9            68            82     56323.0       56323       56323  Jarrow, Robert A.
+   25          60.8            57            70     59289.0       59289       59289  Archer, Lynden A.
+   25          50.6            45            57     56412.0       56412       56412  Erickson, David
+   25          66.2            64            71     76890.0       76890       76890  Hammer, David A.

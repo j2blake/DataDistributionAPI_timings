@@ -1,0 +1,17 @@
+Run                        Samples  Passes  Avg. elapsed  Bytes per pass Test Plan / URI file
+scholars_ora_baseline_1         10      10         328.1        10462111 OrganizationResearchAreas.jmx / OrganizationUris.csv
+scholars_ora_drill_L1L2_1       10      10         604.5        10575819 OrganizationResearchAreas.jmx / OrganizationUris.csv
+scholars_ora_drill_L1_1         10      10         798.2        10479848 OrganizationResearchAreas.jmx / OrganizationUris.csv
+scholars_ora_drill_L2_1         10      10         409.2        10601107 OrganizationResearchAreas.jmx / OrganizationUris.csv
+scholars_ora_drill_L3_1         10      10        5000.4        10907357 OrganizationResearchAreas.jmx / OrganizationUris.csv
+scholars_ora_drill_L4_1         10      10        3297.4        11383246 OrganizationResearchAreas.jmx / OrganizationUris.csv
+scholars_ora_drill_L5_1         10      10         707.3        10947046 OrganizationResearchAreas.jmx / OrganizationUris.csv
+scholars_ora_drill_L6_1         10      10         328.7        10462111 OrganizationResearchAreas.jmx / OrganizationUris.csv
+vivo_ora_baseline_1             10      10       20908.4        10462071 OrganizationResearchAreas.jmx / OrganizationUris.csv
+vivo_ora_drill_L1L2_1           10      10        3658.9        10575779 OrganizationResearchAreas.jmx / OrganizationUris.csv
+vivo_ora_drill_L1_1             10      10         685.9        10479808 OrganizationResearchAreas.jmx / OrganizationUris.csv
+vivo_ora_drill_L2_1             10      10        3072.0        10601067 OrganizationResearchAreas.jmx / OrganizationUris.csv
+vivo_ora_drill_L3_1             10      10        5470.5        10907317 OrganizationResearchAreas.jmx / OrganizationUris.csv
+vivo_ora_drill_L4_1             10      10        3589.4        11383206 OrganizationResearchAreas.jmx / OrganizationUris.csv
+vivo_ora_drill_L5_1             10      10       21359.0        10947006 OrganizationResearchAreas.jmx / OrganizationUris.csv
+vivo_ora_drill_L6_1             10      10       20968.5        10462071 OrganizationResearchAreas.jmx / OrganizationUris.csv

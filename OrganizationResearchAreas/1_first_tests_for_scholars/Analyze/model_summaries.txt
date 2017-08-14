@@ -1,0 +1,208 @@
+--------------------------------
+  ora_baseline
+--------------------------------
+
+Statement count: 8177
+Distinct subjects: 3951
+Distinct predicates: 7
+Distinct types: 5
+
+PREDICATES
+41  http://scholars.cornell.edu/ontology/hr.owl#hasPosition
+1736  http://vivoweb.org/ontology/core#hasPublicationVenue
+530  http://vivoweb.org/ontology/core#hasSubjectArea
+1773  http://vivoweb.org/ontology/core#relatedBy
+1814  http://vivoweb.org/ontology/core#relates
+2177  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+106  http://www.w3.org/2000/01/rdf-schema#label
+
+TYPES
+1736  http://purl.org/ontology/bibo/Article
+296  http://purl.org/ontology/bibo/Journal
+41  http://vivoweb.org/ontology/core#Position
+66  http://www.w3.org/2004/02/skos/core#Concept
+38  http://xmlns.com/foaf/0.1/Person
+
+
+--------------------------------
+  ora_drill_L1
+--------------------------------
+
+Statement count: 8200
+Distinct subjects: 3951
+Distinct predicates: 7
+Distinct types: 5
+
+PREDICATES
+64  http://scholars.cornell.edu/ontology/hr.owl#hasPosition
+1736  http://vivoweb.org/ontology/core#hasPublicationVenue
+530  http://vivoweb.org/ontology/core#hasSubjectArea
+1773  http://vivoweb.org/ontology/core#relatedBy
+1814  http://vivoweb.org/ontology/core#relates
+2177  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+106  http://www.w3.org/2000/01/rdf-schema#label
+
+TYPES
+1736  http://purl.org/ontology/bibo/Article
+296  http://purl.org/ontology/bibo/Journal
+41  http://vivoweb.org/ontology/core#Position
+66  http://www.w3.org/2004/02/skos/core#Concept
+38  http://xmlns.com/foaf/0.1/Person
+
+
+--------------------------------
+  ora_drill_L2
+--------------------------------
+
+Statement count: 8292
+Distinct subjects: 3997
+Distinct predicates: 7
+Distinct types: 5
+
+PREDICATES
+64  http://scholars.cornell.edu/ontology/hr.owl#hasPosition
+1736  http://vivoweb.org/ontology/core#hasPublicationVenue
+530  http://vivoweb.org/ontology/core#hasSubjectArea
+1773  http://vivoweb.org/ontology/core#relatedBy
+1837  http://vivoweb.org/ontology/core#relates
+2223  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+129  http://www.w3.org/2000/01/rdf-schema#label
+
+TYPES
+1736  http://purl.org/ontology/bibo/Article
+296  http://purl.org/ontology/bibo/Journal
+64  http://vivoweb.org/ontology/core#Position
+66  http://www.w3.org/2004/02/skos/core#Concept
+61  http://xmlns.com/foaf/0.1/Person
+
+
+--------------------------------
+  ora_drill_L3
+--------------------------------
+
+Statement count: 8760
+Distinct subjects: 3997
+Distinct predicates: 7
+Distinct types: 5
+
+PREDICATES
+64  http://scholars.cornell.edu/ontology/hr.owl#hasPosition
+1736  http://vivoweb.org/ontology/core#hasPublicationVenue
+530  http://vivoweb.org/ontology/core#hasSubjectArea
+2241  http://vivoweb.org/ontology/core#relatedBy
+1837  http://vivoweb.org/ontology/core#relates
+2223  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+129  http://www.w3.org/2000/01/rdf-schema#label
+
+TYPES
+1736  http://purl.org/ontology/bibo/Article
+296  http://purl.org/ontology/bibo/Journal
+64  http://vivoweb.org/ontology/core#Position
+66  http://www.w3.org/2004/02/skos/core#Concept
+61  http://xmlns.com/foaf/0.1/Person
+
+
+--------------------------------
+  ora_drill_L4
+--------------------------------
+
+Statement count: 8990
+Distinct subjects: 4493
+Distinct predicates: 7
+Distinct types: 5
+
+PREDICATES
+41  http://scholars.cornell.edu/ontology/hr.owl#hasPosition
+1736  http://vivoweb.org/ontology/core#hasPublicationVenue
+530  http://vivoweb.org/ontology/core#hasSubjectArea
+2044  http://vivoweb.org/ontology/core#relatedBy
+2085  http://vivoweb.org/ontology/core#relates
+2448  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+106  http://www.w3.org/2000/01/rdf-schema#label
+
+TYPES
+2007  http://purl.org/ontology/bibo/Article
+296  http://purl.org/ontology/bibo/Journal
+41  http://vivoweb.org/ontology/core#Position
+66  http://www.w3.org/2004/02/skos/core#Concept
+38  http://xmlns.com/foaf/0.1/Person
+
+
+--------------------------------
+  ora_drill_L5
+--------------------------------
+
+Statement count: 8739
+Distinct subjects: 4275
+Distinct predicates: 7
+Distinct types: 5
+
+PREDICATES
+41  http://scholars.cornell.edu/ontology/hr.owl#hasPosition
+1855  http://vivoweb.org/ontology/core#hasPublicationVenue
+530  http://vivoweb.org/ontology/core#hasSubjectArea
+1892  http://vivoweb.org/ontology/core#relatedBy
+1933  http://vivoweb.org/ontology/core#relates
+2382  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+106  http://www.w3.org/2000/01/rdf-schema#label
+
+TYPES
+1855  http://purl.org/ontology/bibo/Article
+382  http://purl.org/ontology/bibo/Journal
+41  http://vivoweb.org/ontology/core#Position
+66  http://www.w3.org/2004/02/skos/core#Concept
+38  http://xmlns.com/foaf/0.1/Person
+
+
+--------------------------------
+  ora_drill_L6
+--------------------------------
+
+Statement count: 8177
+Distinct subjects: 3951
+Distinct predicates: 7
+Distinct types: 5
+
+PREDICATES
+41  http://scholars.cornell.edu/ontology/hr.owl#hasPosition
+1736  http://vivoweb.org/ontology/core#hasPublicationVenue
+530  http://vivoweb.org/ontology/core#hasSubjectArea
+1773  http://vivoweb.org/ontology/core#relatedBy
+1814  http://vivoweb.org/ontology/core#relates
+2177  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+106  http://www.w3.org/2000/01/rdf-schema#label
+
+TYPES
+1736  http://purl.org/ontology/bibo/Article
+296  http://purl.org/ontology/bibo/Journal
+41  http://vivoweb.org/ontology/core#Position
+66  http://www.w3.org/2004/02/skos/core#Concept
+38  http://xmlns.com/foaf/0.1/Person
+
+
+--------------------------------
+  ora_drill_L1L2
+--------------------------------
+
+Statement count: 8269
+Distinct subjects: 3997
+Distinct predicates: 7
+Distinct types: 5
+
+PREDICATES
+64  http://scholars.cornell.edu/ontology/hr.owl#hasPosition
+1736  http://vivoweb.org/ontology/core#hasPublicationVenue
+530  http://vivoweb.org/ontology/core#hasSubjectArea
+1773  http://vivoweb.org/ontology/core#relatedBy
+1837  http://vivoweb.org/ontology/core#relates
+2223  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+106  http://www.w3.org/2000/01/rdf-schema#label
+
+TYPES
+1736  http://purl.org/ontology/bibo/Article
+296  http://purl.org/ontology/bibo/Journal
+64  http://vivoweb.org/ontology/core#Position
+66  http://www.w3.org/2004/02/skos/core#Concept
+61  http://xmlns.com/foaf/0.1/Person
+
+

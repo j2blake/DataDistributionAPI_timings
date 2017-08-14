@@ -1,0 +1,11 @@
+Count  Avg. elapsed  Min. elapsed  Max. elapsed  Avg. bytes  Min. bytes  Max. bytes  Label
+   10       11127.6         11088         11157   2864688.0     2864688     2864688  School of Integrative Plant Science                        
+   10        4566.9          4360          4613   1283411.0     1283411     1283411  Molecular Biology and Genetics                             
+   10        2944.0          2928          2956   1033555.0     1033555     1033555  Ecology and Evolutionary Biology                           
+   10        2065.1          2046          2124    966721.0      966721      966721  Electrical and Computer Engineering                        
+   10        3583.1          3559          3627    799814.0      799814      799814  Natural Resources                                          
+   10        4349.5          4333          4401    795831.0      795831      795831  Food Science                                               
+   10         463.7           459           470    774860.0      774860      774860  Earth and Atmospheric Sciences                             
+   10        1392.8          1377          1405    685267.0      685267      685267  Charles H. Dyson School of Applied Economics and Management
+   10        3454.7          3442          3484    710303.0      710303      710303  Materials Science and Engineering                          
+   10        2641.3          2630          2655    661329.0      661329      661329  Entomology                                                 

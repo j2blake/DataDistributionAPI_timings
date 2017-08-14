@@ -1,6 +1,0 @@
-#st_scholars_timings test_plan=DepartmentWordClouds.jmx uri_file=DepartmentUris.csv variant=dwc_optionals
-#st_scholars_timings test_plan=DepartmentWordClouds.jmx uri_file=DepartmentUris.csv variant=dwc_unions
-#st_scholars_timings test_plan=DepartmentWordClouds.jmx uri_file=DepartmentUris.csv variant=dwc_3queries
-st_scholars_timings test_plan=DepartmentWordClouds.jmx uri_file=DepartmentUris.csv variant=dwc_drill
-#st_scholars_timings test_plan=DepartmentWordClouds.jmx uri_file=DepartmentUris.csv variant=dwc_double
-#st_scholars_timings test_plan=DepartmentWordClouds.jmx uri_file=DepartmentUris.csv variant=dwc_deeper

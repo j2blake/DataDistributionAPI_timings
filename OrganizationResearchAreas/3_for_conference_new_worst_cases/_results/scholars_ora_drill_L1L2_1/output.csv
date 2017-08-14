@@ -1,0 +1,101 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect,"LABEL"
+1501091077639,2578,Get data,200,OK,The thread Group 1-1,text,true,,2864692,228,1,1,2523,0,36,School of Integrative Plant Science                        
+1501091080217,801,Get data,200,OK,The thread Group 1-1,text,true,,1283415,228,1,1,776,0,2,Molecular Biology and Genetics                             
+1501091081018,615,Get data,200,OK,The thread Group 1-1,text,true,,1033559,228,1,1,594,0,0,Ecology and Evolutionary Biology                           
+1501091081633,691,Get data,200,OK,The thread Group 1-1,text,true,,966725,228,1,1,672,0,0,Electrical and Computer Engineering                        
+1501091082324,657,Get data,200,OK,The thread Group 1-1,text,true,,799818,228,1,1,641,0,1,Natural Resources                                          
+1501091082983,601,Get data,200,OK,The thread Group 1-1,text,true,,795835,228,1,1,586,0,0,Food Science                                               
+1501091083584,615,Get data,200,OK,The thread Group 1-1,text,true,,774864,228,1,1,599,0,0,Earth and Atmospheric Sciences                             
+1501091084200,814,Get data,200,OK,The thread Group 1-1,text,true,,685271,228,1,1,801,0,0,Charles H. Dyson School of Applied Economics and Management
+1501091085015,482,Get data,200,OK,The thread Group 1-1,text,true,,710307,228,1,1,468,0,0,Materials Science and Engineering                          
+1501091085498,385,Get data,200,OK,The thread Group 1-1,text,true,,661333,228,1,1,372,0,0,Entomology                                                 
+1501091085884,1973,Get data,200,OK,The thread Group 1-1,text,true,,2864692,228,1,1,1922,0,0,School of Integrative Plant Science                        
+1501091087858,537,Get data,200,OK,The thread Group 1-1,text,true,,1283415,228,1,1,514,0,0,Molecular Biology and Genetics                             
+1501091088396,435,Get data,200,OK,The thread Group 1-1,text,true,,1033559,228,1,1,415,0,0,Ecology and Evolutionary Biology                           
+1501091088831,474,Get data,200,OK,The thread Group 1-1,text,true,,966725,228,1,1,456,0,0,Electrical and Computer Engineering                        
+1501091089305,459,Get data,200,OK,The thread Group 1-1,text,true,,799818,228,1,1,445,0,0,Natural Resources                                          
+1501091089765,402,Get data,200,OK,The thread Group 1-1,text,true,,795835,228,1,1,387,0,0,Food Science                                               
+1501091090167,421,Get data,200,OK,The thread Group 1-1,text,true,,774864,228,1,1,406,0,1,Earth and Atmospheric Sciences                             
+1501091090588,575,Get data,200,OK,The thread Group 1-1,text,true,,685271,228,1,1,562,0,0,Charles H. Dyson School of Applied Economics and Management
+1501091091163,335,Get data,200,OK,The thread Group 1-1,text,true,,710307,228,1,1,322,0,0,Materials Science and Engineering                          
+1501091091498,278,Get data,200,OK,The thread Group 1-1,text,true,,661333,228,1,1,266,0,0,Entomology                                                 
+1501091091777,1787,Get data,200,OK,The thread Group 1-1,text,true,,2864692,228,1,1,1710,0,0,School of Integrative Plant Science                        
+1501091093565,583,Get data,200,OK,The thread Group 1-1,text,true,,1283415,228,1,1,559,0,0,Molecular Biology and Genetics                             
+1501091094148,440,Get data,200,OK,The thread Group 1-1,text,true,,1033559,228,1,1,421,0,0,Ecology and Evolutionary Biology                           
+1501091094588,569,Get data,200,OK,The thread Group 1-1,text,true,,966725,228,1,1,549,0,0,Electrical and Computer Engineering                        
+1501091095157,435,Get data,200,OK,The thread Group 1-1,text,true,,799818,228,1,1,420,0,0,Natural Resources                                          
+1501091095592,404,Get data,200,OK,The thread Group 1-1,text,true,,795835,228,1,1,390,0,1,Food Science                                               
+1501091095996,447,Get data,200,OK,The thread Group 1-1,text,true,,774864,228,1,1,431,0,0,Earth and Atmospheric Sciences                             
+1501091096443,598,Get data,200,OK,The thread Group 1-1,text,true,,685271,228,1,1,586,0,0,Charles H. Dyson School of Applied Economics and Management
+1501091097041,337,Get data,200,OK,The thread Group 1-1,text,true,,710307,228,1,1,324,0,0,Materials Science and Engineering                          
+1501091097378,282,Get data,200,OK,The thread Group 1-1,text,true,,661333,228,1,1,270,0,0,Entomology                                                 
+1501091097660,1712,Get data,200,OK,The thread Group 1-1,text,true,,2864692,228,1,1,1660,0,1,School of Integrative Plant Science                        
+1501091099372,530,Get data,200,OK,The thread Group 1-1,text,true,,1283415,228,1,1,507,0,0,Molecular Biology and Genetics                             
+1501091099903,425,Get data,200,OK,The thread Group 1-1,text,true,,1033559,228,1,1,405,0,0,Ecology and Evolutionary Biology                           
+1501091100329,462,Get data,200,OK,The thread Group 1-1,text,true,,966725,228,1,1,444,0,0,Electrical and Computer Engineering                        
+1501091100791,452,Get data,200,OK,The thread Group 1-1,text,true,,799818,228,1,1,437,0,0,Natural Resources                                          
+1501091101243,404,Get data,200,OK,The thread Group 1-1,text,true,,795835,228,1,1,390,0,0,Food Science                                               
+1501091101648,414,Get data,200,OK,The thread Group 1-1,text,true,,774864,228,1,1,400,0,0,Earth and Atmospheric Sciences                             
+1501091102062,567,Get data,200,OK,The thread Group 1-1,text,true,,685271,228,1,1,554,0,1,Charles H. Dyson School of Applied Economics and Management
+1501091102629,365,Get data,200,OK,The thread Group 1-1,text,true,,710307,228,1,1,346,0,0,Materials Science and Engineering                          
+1501091102995,323,Get data,200,OK,The thread Group 1-1,text,true,,661333,228,1,1,310,0,0,Entomology                                                 
+1501091103318,1790,Get data,200,OK,The thread Group 1-1,text,true,,2864692,228,1,1,1733,0,0,School of Integrative Plant Science                        
+1501091105108,565,Get data,200,OK,The thread Group 1-1,text,true,,1283415,228,1,1,530,0,1,Molecular Biology and Genetics                             
+1501091105673,427,Get data,200,OK,The thread Group 1-1,text,true,,1033559,228,1,1,408,0,0,Ecology and Evolutionary Biology                           
+1501091106100,472,Get data,200,OK,The thread Group 1-1,text,true,,966725,228,1,1,454,0,0,Electrical and Computer Engineering                        
+1501091106573,438,Get data,200,OK,The thread Group 1-1,text,true,,799818,228,1,1,423,0,0,Natural Resources                                          
+1501091107011,404,Get data,200,OK,The thread Group 1-1,text,true,,795835,228,1,1,390,0,0,Food Science                                               
+1501091107416,419,Get data,200,OK,The thread Group 1-1,text,true,,774864,228,1,1,405,0,0,Earth and Atmospheric Sciences                             
+1501091107836,576,Get data,200,OK,The thread Group 1-1,text,true,,685271,228,1,1,563,0,0,Charles H. Dyson School of Applied Economics and Management
+1501091108412,341,Get data,200,OK,The thread Group 1-1,text,true,,710307,228,1,1,327,0,0,Materials Science and Engineering                          
+1501091108753,294,Get data,200,OK,The thread Group 1-1,text,true,,661333,228,1,1,280,0,0,Entomology                                                 
+1501091109048,1730,Get data,200,OK,The thread Group 1-1,text,true,,2864692,228,1,1,1677,0,0,School of Integrative Plant Science                        
+1501091110778,547,Get data,200,OK,The thread Group 1-1,text,true,,1283415,228,1,1,524,0,1,Molecular Biology and Genetics                             
+1501091111326,427,Get data,200,OK,The thread Group 1-1,text,true,,1033559,228,1,1,408,0,0,Ecology and Evolutionary Biology                           
+1501091111754,470,Get data,200,OK,The thread Group 1-1,text,true,,966725,228,1,1,452,0,0,Electrical and Computer Engineering                        
+1501091112225,435,Get data,200,OK,The thread Group 1-1,text,true,,799818,228,1,1,420,0,0,Natural Resources                                          
+1501091112660,410,Get data,200,OK,The thread Group 1-1,text,true,,795835,228,1,1,394,0,0,Food Science                                               
+1501091113070,420,Get data,200,OK,The thread Group 1-1,text,true,,774864,228,1,1,405,0,1,Earth and Atmospheric Sciences                             
+1501091113491,570,Get data,200,OK,The thread Group 1-1,text,true,,685271,228,1,1,557,0,0,Charles H. Dyson School of Applied Economics and Management
+1501091114062,339,Get data,200,OK,The thread Group 1-1,text,true,,710307,228,1,1,326,0,0,Materials Science and Engineering                          
+1501091114401,289,Get data,200,OK,The thread Group 1-1,text,true,,661333,228,1,1,277,0,0,Entomology                                                 
+1501091114691,1736,Get data,200,OK,The thread Group 1-1,text,true,,2864692,228,1,1,1684,0,0,School of Integrative Plant Science                        
+1501091116427,537,Get data,200,OK,The thread Group 1-1,text,true,,1283415,228,1,1,514,0,1,Molecular Biology and Genetics                             
+1501091116965,422,Get data,200,OK,The thread Group 1-1,text,true,,1033559,228,1,1,402,0,0,Ecology and Evolutionary Biology                           
+1501091117388,480,Get data,200,OK,The thread Group 1-1,text,true,,966725,228,1,1,462,0,0,Electrical and Computer Engineering                        
+1501091117867,437,Get data,200,OK,The thread Group 1-1,text,true,,799818,228,1,1,420,0,0,Natural Resources                                          
+1501091118304,427,Get data,200,OK,The thread Group 1-1,text,true,,795835,228,1,1,408,0,0,Food Science                                               
+1501091118731,426,Get data,200,OK,The thread Group 1-1,text,true,,774864,228,1,1,410,0,0,Earth and Atmospheric Sciences                             
+1501091119157,599,Get data,200,OK,The thread Group 1-1,text,true,,685271,228,1,1,585,0,0,Charles H. Dyson School of Applied Economics and Management
+1501091119756,341,Get data,200,OK,The thread Group 1-1,text,true,,710307,228,1,1,327,0,0,Materials Science and Engineering                          
+1501091120097,288,Get data,200,OK,The thread Group 1-1,text,true,,661333,228,1,1,275,0,0,Entomology                                                 
+1501091120386,1738,Get data,200,OK,The thread Group 1-1,text,true,,2864692,228,1,1,1684,0,0,School of Integrative Plant Science                        
+1501091122124,542,Get data,200,OK,The thread Group 1-1,text,true,,1283415,228,1,1,514,0,1,Molecular Biology and Genetics                             
+1501091122666,433,Get data,200,OK,The thread Group 1-1,text,true,,1033559,228,1,1,415,0,0,Ecology and Evolutionary Biology                           
+1501091123100,482,Get data,200,OK,The thread Group 1-1,text,true,,966725,228,1,1,462,0,0,Electrical and Computer Engineering                        
+1501091123582,450,Get data,200,OK,The thread Group 1-1,text,true,,799818,228,1,1,433,0,0,Natural Resources                                          
+1501091124032,423,Get data,200,OK,The thread Group 1-1,text,true,,795835,228,1,1,409,0,0,Food Science                                               
+1501091124455,415,Get data,200,OK,The thread Group 1-1,text,true,,774864,228,1,1,401,0,0,Earth and Atmospheric Sciences                             
+1501091124870,567,Get data,200,OK,The thread Group 1-1,text,true,,685271,228,1,1,554,0,0,Charles H. Dyson School of Applied Economics and Management
+1501091125437,328,Get data,200,OK,The thread Group 1-1,text,true,,710307,228,1,1,315,0,0,Materials Science and Engineering                          
+1501091125765,279,Get data,200,OK,The thread Group 1-1,text,true,,661333,228,1,1,268,0,0,Entomology                                                 
+1501091126045,1730,Get data,200,OK,The thread Group 1-1,text,true,,2864692,228,1,1,1673,0,0,School of Integrative Plant Science                        
+1501091127775,540,Get data,200,OK,The thread Group 1-1,text,true,,1283415,228,1,1,517,0,0,Molecular Biology and Genetics                             
+1501091128316,436,Get data,200,OK,The thread Group 1-1,text,true,,1033559,228,1,1,417,0,0,Ecology and Evolutionary Biology                           
+1501091128753,550,Get data,200,OK,The thread Group 1-1,text,true,,966725,228,1,1,527,0,0,Electrical and Computer Engineering                        
+1501091129303,530,Get data,200,OK,The thread Group 1-1,text,true,,799818,228,1,1,513,0,0,Natural Resources                                          
+1501091129834,502,Get data,200,OK,The thread Group 1-1,text,true,,795835,228,1,1,484,0,0,Food Science                                               
+1501091130337,426,Get data,200,OK,The thread Group 1-1,text,true,,774864,228,1,1,410,0,0,Earth and Atmospheric Sciences                             
+1501091130763,577,Get data,200,OK,The thread Group 1-1,text,true,,685271,228,1,1,564,0,0,Charles H. Dyson School of Applied Economics and Management
+1501091131340,343,Get data,200,OK,The thread Group 1-1,text,true,,710307,228,1,1,330,0,0,Materials Science and Engineering                          
+1501091131683,286,Get data,200,OK,The thread Group 1-1,text,true,,661333,228,1,1,274,0,0,Entomology                                                 
+1501091131970,1740,Get data,200,OK,The thread Group 1-1,text,true,,2864692,228,1,1,1684,0,0,School of Integrative Plant Science                        
+1501091133711,552,Get data,200,OK,The thread Group 1-1,text,true,,1283415,228,1,1,528,0,0,Molecular Biology and Genetics                             
+1501091134263,417,Get data,200,OK,The thread Group 1-1,text,true,,1033559,228,1,1,399,0,0,Ecology and Evolutionary Biology                           
+1501091134680,464,Get data,200,OK,The thread Group 1-1,text,true,,966725,228,1,1,443,0,0,Electrical and Computer Engineering                        
+1501091135144,479,Get data,200,OK,The thread Group 1-1,text,true,,799818,228,1,1,465,0,0,Natural Resources                                          
+1501091135623,406,Get data,200,OK,The thread Group 1-1,text,true,,795835,228,1,1,392,0,0,Food Science                                               
+1501091136029,423,Get data,200,OK,The thread Group 1-1,text,true,,774864,228,1,1,408,0,0,Earth and Atmospheric Sciences                             
+1501091136452,773,Get data,200,OK,The thread Group 1-1,text,true,,685271,228,1,1,760,0,0,Charles H. Dyson School of Applied Economics and Management
+1501091137225,484,Get data,200,OK,The thread Group 1-1,text,true,,710307,228,1,1,470,0,0,Materials Science and Engineering                          
+1501091137710,411,Get data,200,OK,The thread Group 1-1,text,true,,661333,228,1,1,398,0,0,Entomology                                                 

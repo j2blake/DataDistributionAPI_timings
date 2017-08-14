@@ -1,0 +1,48 @@
+--------------------------------------------------------
+
+This query determines the organizations with the largest numbers of academic articles.
+
+--------------------------------------------------------
+
+
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX vivo: <http://vivoweb.org/ontology/core#>
+PREFIX bibo: <http://purl.org/ontology/bibo/>
+PREFIX hr:   <http://scholars.cornell.edu/ontology/hr.owl#>
+SELECT (SAMPLE(?organization) AS ?ORGANIZATION) (SAMPLE(?name) AS ?NAME) (COUNT(?article) as ?COUNT)
+WHERE {
+  ?organization hr:hasPosition ?position ;
+    rdfs:label ?name .
+  ?position 
+    a vivo:Position ;
+    vivo:relates ?author .
+  ?author 
+    a foaf:Person ;
+    vivo:relatedBy ?authorship .
+  ?authorship vivo:relates ?article .
+  ?article 
+    a bibo:Article .
+} 
+GROUP BY ?organization
+ORDER BY DESC(?COUNT)
+LIMIT 10
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+| ORGANIZATION                                      | NAME                                                    | COUNT |
+=======================================================================================================================
+| <http://scholars.cornell.edu/individual/org49841> | "Electrical and Computer Engineering"                   | 2163  |
+| <http://scholars.cornell.edu/individual/org42189> | "Materials Science and Engineering"                     | 1502  |
+| <http://scholars.cornell.edu/individual/org68763> | "Meinig School of Biomedical Engineering"               | 1269  |
+| <http://scholars.cornell.edu/individual/org15006> | "Civil and Environmental Engineering"                   | 1266  |
+| <http://scholars.cornell.edu/individual/org80541> | "Smith School of Chemical and Biomolecular Engineering" | 1258  |
+| <http://scholars.cornell.edu/individual/org66771> | "Sibley School of Mechanical and Aerospace Engineering" | 1215  |
+| <http://scholars.cornell.edu/individual/org93835> | "Applied and Engineering Physics"                       | 1138  |
+| <http://scholars.cornell.edu/individual/org32427> | "Earth and Atmospheric Sciences"                        | 1115  |
+| <http://scholars.cornell.edu/individual/org74741> | "Samuel Curtis Johnson Graduate School of Management"   | 1032  |
+| <http://scholars.cornell.edu/individual/org37772> | "Office of the Dean of Engineering"                     | 630   |
+-----------------------------------------------------------------------------------------------------------------------

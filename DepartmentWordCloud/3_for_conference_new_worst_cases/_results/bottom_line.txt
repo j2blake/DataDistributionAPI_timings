@@ -1,0 +1,19 @@
+Run                       Samples  Passes  Avg. elapsed  Bytes per pass Test Plan / URI file
+scholars_dwc_3queries_1        10      10        1697.7         3327440 DepartmentWordClouds.jmx / DepartmentUris.csv
+scholars_dwc_deeper_1          10      10        6314.5        13168011 DepartmentWordClouds.jmx / DepartmentUris.csv
+scholars_dwc_double_1          10      10        6058.9        12160451 DepartmentWordClouds.jmx / DepartmentUris.csv
+scholars_dwc_drill_1           10      10        1183.4         4410474 DepartmentWordClouds.jmx / DepartmentUris.csv
+scholars_dwc_optionals_1       10      10       11443.1         4375315 DepartmentWordClouds.jmx / DepartmentUris.csv
+scholars_dwc_unions_1          10      10        1715.3         3327440 DepartmentWordClouds.jmx / DepartmentUris.csv
+vivo_dwc_3queries_1            10      10       50170.4         3327400 DepartmentWordClouds.jmx / DepartmentUris.csv
+vivo_dwc_3queries_2            10      10       47641.7         3327400 DepartmentWordClouds.jmx / DepartmentUris.csv
+vivo_dwc_deeper_1              10      10        5192.4        13167971 DepartmentWordClouds.jmx / DepartmentUris.csv
+vivo_dwc_deeper_2              10      10        5148.4        13167971 DepartmentWordClouds.jmx / DepartmentUris.csv
+vivo_dwc_double_1              10      10        5472.4        12160411 DepartmentWordClouds.jmx / DepartmentUris.csv
+vivo_dwc_double_2              10      10        5430.9        12160411 DepartmentWordClouds.jmx / DepartmentUris.csv
+vivo_dwc_drill_1               10      10        1242.8         4410434 DepartmentWordClouds.jmx / DepartmentUris.csv
+vivo_dwc_drill_2               10      10        1186.3         4410434 DepartmentWordClouds.jmx / DepartmentUris.csv
+vivo_dwc_optionals_1           10      10       11632.7         4375275 DepartmentWordClouds.jmx / DepartmentUris.csv
+vivo_dwc_optionals_2           10      10       12267.2         4375275 DepartmentWordClouds.jmx / DepartmentUris.csv
+vivo_dwc_unions_1              10      10       50530.3         3327400 DepartmentWordClouds.jmx / DepartmentUris.csv
+vivo_dwc_unions_2              10      10       52330.1         3327400 DepartmentWordClouds.jmx / DepartmentUris.csv

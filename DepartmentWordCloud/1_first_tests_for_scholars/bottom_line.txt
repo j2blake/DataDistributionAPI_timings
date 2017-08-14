@@ -1,0 +1,7 @@
+            Run  Samples  Passes  Avg. elapsed  Bytes per pass Test Plan / URI file
+ dwc_3queries_1       10      10        7818.6         1350901 DepartmentWordClouds.jmx / DepartmentUris.csv
+   dwc_deeper_1       10      10        3755.9         6244445 DepartmentWordClouds.jmx / DepartmentUris.csv
+   dwc_double_1       10      10        4372.5         5702237 DepartmentWordClouds.jmx / DepartmentUris.csv
+    dwc_drill_1       10      10         579.9         1378279 DepartmentWordClouds.jmx / DepartmentUris.csv
+dwc_optionals_2       10      10        3416.7         1351184 DepartmentWordClouds.jmx / DepartmentUris.csv
+   dwc_unions_1       10      10        7587.3         1350901 DepartmentWordClouds.jmx / DepartmentUris.csv

@@ -1,0 +1,4 @@
+curl -o dwc_unions.ttl http://localhost:8080/scholars/api/dataRequest/dwc_unions?department=http://scholars.cornell.edu/individual/org68763
+curl -o dwc_drill.ttl http://localhost:8080/scholars/api/dataRequest/dwc_drill?department=http://scholars.cornell.edu/individual/org68763
+curl -o dwc_double.ttl http://localhost:8080/scholars/api/dataRequest/dwc_double?department=http://scholars.cornell.edu/individual/org68763
+curl -o dwc_deeper.ttl http://localhost:8080/scholars/api/dataRequest/dwc_deeper?department=http://scholars.cornell.edu/individual/org68763

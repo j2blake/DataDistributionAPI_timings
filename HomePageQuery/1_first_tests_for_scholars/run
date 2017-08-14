@@ -1,0 +1,5 @@
+st_scholars_timings test_plan=HomePageQuery.jmx uri_file=HomePageUris.csv variant=hpq_baseline
+st_scholars_timings test_plan=HomePageQuery.jmx uri_file=HomePageUris.csv variant=hpq_construct
+st_scholars_timings test_plan=HomePageQuery.jmx uri_file=HomePageUris.csv variant=hpq_split
+st_scholars_timings test_plan=HomePageQuery.jmx uri_file=HomePageUris.csv variant=hpq_indistinct
+st_scholars_timings test_plan=HomePageQuery.jmx uri_file=HomePageUris.csv variant=hpq_custom

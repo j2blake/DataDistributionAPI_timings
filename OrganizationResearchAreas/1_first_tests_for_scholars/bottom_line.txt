@@ -1,0 +1,15 @@
+             Run  Samples  Passes  Avg. elapsed  Bytes per pass Test Plan / URI file
+  ora_baseline_1       10      10        5072.7         5243790 OrganizationResearchAreas.jmx / OrganizationUris.csv
+  ora_baseline_2       10      10        4419.8         5243790 OrganizationResearchAreas.jmx / OrganizationUris.csv
+  ora_baseline_3       10      10        4396.2         5243790 OrganizationResearchAreas.jmx / OrganizationUris.csv
+ora_drill_L1L2_1       10      10         941.9         5358814 OrganizationResearchAreas.jmx / OrganizationUris.csv
+  ora_drill_L1_1       10      10         459.2         5261921 OrganizationResearchAreas.jmx / OrganizationUris.csv
+  ora_drill_L1_2       10      10         455.6         5261921 OrganizationResearchAreas.jmx / OrganizationUris.csv
+  ora_drill_L2_1       10      10         621.5         5384287 OrganizationResearchAreas.jmx / OrganizationUris.csv
+  ora_drill_L2_2       10      10         618.1         5384287 OrganizationResearchAreas.jmx / OrganizationUris.csv
+  ora_drill_L3_1       10      10        2634.0         5583039 OrganizationResearchAreas.jmx / OrganizationUris.csv
+  ora_drill_L3_2       10      10        2633.9         5583039 OrganizationResearchAreas.jmx / OrganizationUris.csv
+  ora_drill_L4_1       10      10        1890.0         5907331 OrganizationResearchAreas.jmx / OrganizationUris.csv
+  ora_drill_L4_2       10      10        1899.5         5907331 OrganizationResearchAreas.jmx / OrganizationUris.csv
+  ora_drill_L5_1       10      10        4153.2         5921445 OrganizationResearchAreas.jmx / OrganizationUris.csv
+  ora_drill_L6_1       10      10        4032.6         5243790 OrganizationResearchAreas.jmx / OrganizationUris.csv

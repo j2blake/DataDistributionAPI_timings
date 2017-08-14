@@ -1,0 +1,242 @@
+
+--------------------------------------------------------
+
+Who are the faculty with the most keywords?
+
+--------------------------------------------------------
+
+
+PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bibo:     <http://purl.org/ontology/bibo/>
+PREFIX foaf:     <http://xmlns.com/foaf/0.1/>
+PREFIX vivo:     <http://vivoweb.org/ontology/core#>
+PREFIX vivoc:    <http://scholars.cornell.edu/ontology/vivoc.owl#>
+SELECT 
+  (SAMPLE(?person) AS ?PERSON) 
+  (SAMPLE(?label) AS ?LABEL) 
+  (COUNT(?pub) AS ?PUBCOUNT)
+  (COUNT(?keyword) as ?KWCOUNT) 
+  (COUNT(?meshLabel) as ?MESHCOUNT) 
+  (COUNT(?infkeyword) as ?INFCOUNT)
+WHERE {
+  ?person 
+     a foaf:Person ;
+     rdfs:label ?label ;
+     vivo:relatedBy ?auth .
+  ?auth 
+     a vivo:Authorship ;
+     vivo:relates ?pub .
+  ?pub 
+     a bibo:Document .
+  OPTIONAL { 
+    ?pub vivo:freetextKeyword ?keyword . 
+  }
+  OPTIONAL { 
+    ?pub vivo:hasSubjectArea ?mesh .
+    ?mesh a vivoc:MeshTerm .
+    ?mesh rdfs:label ?meshLabel .
+  }
+  OPTIONAL { 
+    ?pub vivoc:inferredKeyword ?infkeyword . 
+  }
+}
+GROUP BY ?person
+ORDER BY DESC(?MESHCOUNT + ?INFCOUNT + ?KWCOUNT)
+LIMIT 20
+
+
+--------------------------------------------------------
+
+The results of that query:
+
+--------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------
+| PERSON                                          | LABEL                         | PUBCOUNT | KWCOUNT | MESHCOUNT | INFCOUNT |
+===============================================================================================================================
+| <http://scholars.cornell.edu/individual/lb244>  | "Bonassar, Lawrence"@en-US    | 109322   | 82906   | 108462    | 109286   |
+| <http://scholars.cornell.edu/individual/mrk93>  | "King, Michael R."@en-US      | 81002    | 63438   | 78644     | 80994    |
+| <http://scholars.cornell.edu/individual/mls50>  | "Shuler, Michael Louis"       | 59447    | 43192   | 57572     | 59423    |
+| <http://scholars.cornell.edu/individual/hgc1>   | "Craighead, Harold G."        | 57194    | 40568   | 54004     | 57126    |
+| <http://scholars.cornell.edu/individual/yw233>  | "Wang, Yi"                    | 36734    | 35275   | 36475     | 36733    |
+| <http://scholars.cornell.edu/individual/jtb47>  | "Butcher, Jonathan T."        | 35226    | 31060   | 34831     | 35212    |
+| <http://scholars.cornell.edu/individual/mcv3>   | "van der Meulen, Marjolein"   | 29912    | 25936   | 29830     | 29912    |
+| <http://scholars.cornell.edu/individual/cf99>   | "Fischbach, Claudia"          | 28810    | 21710   | 28516     | 28808    |
+| <http://scholars.cornell.edu/individual/lwl3>   | "Lion, Leonard William"@en-US | 26852    | 21602   | 25294     | 26802    |
+| <http://scholars.cornell.edu/individual/apr5>   | "Reeves, Anthony P."          | 24236    | 22566   | 23850     | 24230    |
+| <http://scholars.cornell.edu/individual/dm24>   | "Muller, David Anthony"@en-US | 21530    | 17364   | 15806     | 21476    |
+| <http://scholars.cornell.edu/individual/md255>  | "DeLisa, Matthew"             | 20898    | 9763    | 20865     | 20898    |
+| <http://scholars.cornell.edu/individual/cjh275> | "Hernandez, Christopher J."   | 16275    | 12142   | 16154     | 16275    |
+| <http://scholars.cornell.edu/individual/fww1>   | "Wise, Frank William"@en-US   | 16152    | 12980   | 14652     | 16106    |
+| <http://scholars.cornell.edu/individual/bk88>   | "Kirby, Brian"                | 14907    | 12562   | 14633     | 14907    |
+| <http://scholars.cornell.edu/individual/wrz2>   | "Zipfel, Warren R."           | 15349    | 11356   | 14847     | 15348    |
+| <http://scholars.cornell.edu/individual/cs385>  | "Schaffer, Chris"             | 14302    | 11123   | 14130     | 14301    |
+| <http://scholars.cornell.edu/individual/lp26>   | "Pollack, Lois"               | 14438    | 10520   | 14204     | 14438    |
+| <http://scholars.cornell.edu/individual/na424>  | "Andarawis-Puri, Nelly"@en-US | 13914    | 8748    | 13898     | 13914    |
+| <http://scholars.cornell.edu/individual/eld26>  | "Donnelly, Eve Lorraine"      | 10640    | 8994    | 10608     | 10640    |
+-------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------
+
+Try again with optionals
+
+--------------------------------------------------------
+
+PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bibo:     <http://purl.org/ontology/bibo/>
+PREFIX foaf:     <http://xmlns.com/foaf/0.1/>
+PREFIX vivo:     <http://vivoweb.org/ontology/core#>
+PREFIX vivoc:    <http://scholars.cornell.edu/ontology/vivoc.owl#>
+SELECT 
+  (SAMPLE(?person) AS ?PERSON) 
+  (SAMPLE(?label) AS ?LABEL) 
+  (COUNT(?keyword) as ?KWCOUNT) 
+  (COUNT(?meshLabel) as ?MESHCOUNT) 
+  (COUNT(?infkeyword) as ?INFCOUNT)
+WHERE {
+  {
+    ?person 
+       a foaf:Person ;
+       rdfs:label ?label ;
+       vivo:relatedBy ?auth .
+    ?auth 
+       a vivo:Authorship ;
+       vivo:relates ?pub .
+    ?pub 
+       a bibo:Document .
+
+    ?pub vivo:freetextKeyword ?keyword . 
+  } UNION {
+    ?person 
+       a foaf:Person ;
+       rdfs:label ?label ;
+       vivo:relatedBy ?auth .
+    ?auth 
+       a vivo:Authorship ;
+       vivo:relates ?pub .
+    ?pub 
+       a bibo:Document .
+
+    ?pub vivo:hasSubjectArea ?mesh .
+    ?mesh a vivoc:MeshTerm .
+    ?mesh rdfs:label ?meshLabel .
+  } UNION {
+    ?person 
+       a foaf:Person ;
+       rdfs:label ?label ;
+       vivo:relatedBy ?auth .
+    ?auth 
+       a vivo:Authorship ;
+       vivo:relates ?pub .
+    ?pub 
+       a bibo:Document .
+
+    ?pub vivoc:inferredKeyword ?infkeyword . 
+  }
+}
+GROUP BY ?person
+ORDER BY DESC(?MESHCOUNT + ?INFCOUNT + ?KWCOUNT)
+LIMIT 20
+
+--------------------------------------------------------
+
+The results of that query:
+
+--------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------
+| PERSON                                         | LABEL                         | KWCOUNT | MESHCOUNT | INFCOUNT |
+===================================================================================================================
+| <http://scholars.cornell.edu/individual/lb244> | "Bonassar, Lawrence"@en-US    | 454     | 2690      | 4024     |
+| <http://scholars.cornell.edu/individual/hgc1>  | "Craighead, Harold G."        | 632     | 1552      | 4324     |
+| <http://scholars.cornell.edu/individual/mrk93> | "King, Michael R."@en-US      | 406     | 1644      | 3116     |
+| <http://scholars.cornell.edu/individual/mls50> | "Shuler, Michael Louis"       | 440     | 1564      | 3150     |
+| <http://scholars.cornell.edu/individual/dm24>  | "Muller, David Anthony"@en-US | 546     | 394       | 3038     |
+| <http://scholars.cornell.edu/individual/lwl3>  | "Lion, Leonard William"@en-US | 464     | 492       | 1786     |
+| <http://scholars.cornell.edu/individual/ds636> | "Schlom, Darrell"@en-US       | 346     | 58        | 2176     |
+| <http://scholars.cornell.edu/individual/fww1>  | "Wise, Frank William"@en-US   | 192     | 426       | 1484     |
+| <http://scholars.cornell.edu/individual/md255> | "DeLisa, Matthew"             | 64      | 958       | 1036     |
+| <http://scholars.cornell.edu/individual/cf99>  | "Fischbach, Claudia"          | 118     | 642       | 1070     |
+| <http://scholars.cornell.edu/individual/rvl1>  | "Lovelace, Richard V E"@en-US | 288     | 0         | 1506     |
+| <http://scholars.cornell.edu/individual/cx10>  | "Xu, Chunhui"                 | 164     | 328       | 1254     |
+| <http://scholars.cornell.edu/individual/yw233> | "Wang, Yi"                    | 188     | 673       | 869      |
+| <http://scholars.cornell.edu/individual/cko3>  | "Ober, Christopher Kemper"    | 163     | 164       | 1334     |
+| <http://scholars.cornell.edu/individual/jtb47> | "Butcher, Jonathan T."        | 174     | 472       | 960      |
+| <http://scholars.cornell.edu/individual/lp26>  | "Pollack, Lois"               | 88      | 512       | 930      |
+| <http://scholars.cornell.edu/individual/mcv3>  | "van der Meulen, Marjolein"   | 122     | 470       | 874      |
+| <http://scholars.cornell.edu/individual/epg2>  | "Giannelis, Emmanuel P."      | 238     | 219       | 947      |
+| <http://scholars.cornell.edu/individual/apr5>  | "Reeves, Anthony P."          | 153     | 392       | 750      |
+| <http://scholars.cornell.edu/individual/rer26> | "Richardson, Ruth E."@en-US   | 32      | 452       | 796      |
+-------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------
+
+Can we count distinct values?
+
+--------------------------------------------------------
+
+PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bibo:     <http://purl.org/ontology/bibo/>
+PREFIX foaf:     <http://xmlns.com/foaf/0.1/>
+PREFIX vivo:     <http://vivoweb.org/ontology/core#>
+PREFIX vivoc:    <http://scholars.cornell.edu/ontology/vivoc.owl#>
+SELECT 
+  (SAMPLE(?person) AS ?PERSON) 
+  (SAMPLE(?label) AS ?LABEL) 
+  (COUNT(distinct(?keyword)) as ?KWCOUNT) 
+  (COUNT(distinct(?meshLabel)) as ?MESHCOUNT) 
+  (COUNT(distinct(?infkeyword)) as ?INFCOUNT)
+WHERE {
+  {
+    ?person 
+       a foaf:Person ;
+       rdfs:label ?label ;
+       vivo:relatedBy ?auth .
+    ?auth 
+       a vivo:Authorship ;
+       vivo:relates ?pub .
+    ?pub 
+       a bibo:Document .
+
+    ?pub vivo:freetextKeyword ?keyword . 
+  } UNION {
+    ?person 
+       a foaf:Person ;
+       rdfs:label ?label ;
+       vivo:relatedBy ?auth .
+    ?auth 
+       a vivo:Authorship ;
+       vivo:relates ?pub .
+    ?pub 
+       a bibo:Document .
+
+    ?pub vivo:hasSubjectArea ?mesh .
+    ?mesh a vivoc:MeshTerm .
+    ?mesh rdfs:label ?meshLabel .
+  } UNION {
+    ?person 
+       a foaf:Person ;
+       rdfs:label ?label ;
+       vivo:relatedBy ?auth .
+    ?auth 
+       a vivo:Authorship ;
+       vivo:relates ?pub .
+    ?pub 
+       a bibo:Document .
+
+    ?pub vivoc:inferredKeyword ?infkeyword . 
+  }
+}
+GROUP BY ?person
+ORDER BY DESC(?MESHCOUNT + ?INFCOUNT + ?KWCOUNT)
+LIMIT 20
+
+--------------------------------------------------------
+
+The results of that query:
+
+--------------------------------------------------------
+

@@ -1,0 +1,81 @@
+2017-07-24 23:09:44,979 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2017-07-24 23:09:44,990 INFO o.a.j.JMeter: Loading user properties from: /Users/jeb228/Software/forMac/JMeter/apache-jmeter-3.2/bin/user.properties
+2017-07-24 23:09:44,990 INFO o.a.j.JMeter: Loading system properties from: /Users/jeb228/Software/forMac/JMeter/apache-jmeter-3.2/bin/system.properties
+2017-07-24 23:09:44,991 INFO o.a.j.JMeter: Setting JMeter property: dir.base=/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/OrganizationResearchAreas/_results
+2017-07-24 23:09:44,991 INFO o.a.j.JMeter: Setting JMeter property: dir.output=/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/OrganizationResearchAreas/_results/scholars_ora_drill_L3_1
+2017-07-24 23:09:44,991 INFO o.a.j.JMeter: Setting JMeter property: context.path=scholars
+2017-07-24 23:09:44,991 INFO o.a.j.JMeter: Setting JMeter property: action.name=ora_drill_L3
+2017-07-24 23:09:44,991 INFO o.a.j.JMeter: Setting JMeter property: file.uris=/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/OrganizationResearchAreas/OrganizationUris.csv
+2017-07-24 23:09:44,991 INFO o.a.j.JMeter: Setting JMeter property: sample_variables=LABEL
+2017-07-24 23:09:44,995 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2017-07-24 23:09:44,995 INFO o.a.j.JMeter: Version 3.2 r1790748
+2017-07-24 23:09:44,995 INFO o.a.j.JMeter: java.version=1.8.0_131
+2017-07-24 23:09:44,995 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2017-07-24 23:09:44,995 INFO o.a.j.JMeter: os.name=Mac OS X
+2017-07-24 23:09:44,996 INFO o.a.j.JMeter: os.arch=x86_64
+2017-07-24 23:09:44,996 INFO o.a.j.JMeter: os.version=10.12.6
+2017-07-24 23:09:44,996 INFO o.a.j.JMeter: file.encoding=UTF-8
+2017-07-24 23:09:44,996 INFO o.a.j.JMeter: Max memory     =536870912
+2017-07-24 23:09:44,996 INFO o.a.j.JMeter: Available Processors =4
+2017-07-24 23:09:44,998 INFO o.a.j.JMeter: Default Locale=English (United States)
+2017-07-24 23:09:44,999 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2017-07-24 23:09:44,999 INFO o.a.j.JMeter: JMeterHome=/Users/jeb228/Software/forMac/JMeter/apache-jmeter-3.2
+2017-07-24 23:09:44,999 INFO o.a.j.JMeter: user.dir  =/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/OrganizationResearchAreas/_results
+2017-07-24 23:09:44,999 INFO o.a.j.JMeter: PWD       =/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/OrganizationResearchAreas/_results
+2017-07-24 23:09:45,000 INFO o.a.j.JMeter: IP: 10.0.1.36 Name: lib-jeb228-maclap.local FullName: 10.0.1.36
+2017-07-24 23:09:45,002 INFO o.a.j.s.FileServer: Default base='/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/OrganizationResearchAreas/_results'
+2017-07-24 23:09:45,002 INFO o.a.j.s.FileServer: Set new base='/Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/OrganizationResearchAreas'
+2017-07-24 23:09:45,082 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2017-07-24 23:09:45,092 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2017-07-24 23:09:45,103 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2017-07-24 23:09:45,107 INFO o.a.j.s.SaveService: Loading file: /Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/OrganizationResearchAreas/OrganizationResearchAreas.jmx
+2017-07-24 23:09:45,140 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-24 23:09:45,140 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-24 23:09:45,140 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-24 23:09:45,140 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-24 23:09:45,140 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2017-07-24 23:09:45,140 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2017-07-24 23:09:45,147 INFO o.a.j.JMeter: Creating summariser <summary>
+2017-07-24 23:09:45,155 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-07-24 23:09:45,155 INFO o.a.j.s.SampleEvent: List of sample_variables: [LABEL]
+2017-07-24 23:09:45,155 INFO o.a.j.s.SampleEvent: List of sample_variables: [LABEL]
+2017-07-24 23:09:45,157 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2017-07-24 23:09:45,157 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2017-07-24 23:09:45,399 INFO o.a.j.JMeter: Running test (1500952185399)
+2017-07-24 23:09:45,433 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : The thread Group
+2017-07-24 23:09:45,433 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group The thread Group.
+2017-07-24 23:09:45,433 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-07-24 23:09:45,433 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2017-07-24 23:09:45,437 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-07-24 23:09:45,437 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-07-24 23:09:45,650 INFO o.a.j.t.JMeterThread: Thread started: The thread Group 1-1
+2017-07-24 23:09:45,652 INFO o.a.j.s.FileServer: Stored: /Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/OrganizationResearchAreas/OrganizationUris.csv
+2017-07-24 23:09:45,668 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = lib-jeb228-maclap.local
+2017-07-24 23:09:45,674 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2017-07-24 23:09:45,681 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2017-07-24 23:09:45,681 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2017-07-24 23:09:45,681 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2017-07-24 23:09:45,681 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2017-07-24 23:10:00,932 INFO o.a.j.r.Summariser: summary +      5 in 00:00:16 =    0.3/s Avg:  3045 Min:  2450 Max:  4290 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 23:10:30,839 INFO o.a.j.r.Summariser: summary +     11 in 00:00:30 =    0.4/s Avg:  2718 Min:   663 Max:  4384 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 23:10:30,839 INFO o.a.j.r.Summariser: summary =     16 in 00:00:45 =    0.4/s Avg:  2820 Min:   663 Max:  4384 Err:     0 (0.00%)
+2017-07-24 23:11:02,943 INFO o.a.j.r.Summariser: summary +     12 in 00:00:32 =    0.4/s Avg:  2674 Min:   655 Max:  4212 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 23:11:02,943 INFO o.a.j.r.Summariser: summary =     28 in 00:01:18 =    0.4/s Avg:  2758 Min:   655 Max:  4384 Err:     0 (0.00%)
+2017-07-24 23:11:32,142 INFO o.a.j.r.Summariser: summary +     11 in 00:00:29 =    0.4/s Avg:  2654 Min:   647 Max:  4206 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 23:11:32,142 INFO o.a.j.r.Summariser: summary =     39 in 00:01:47 =    0.4/s Avg:  2728 Min:   647 Max:  4384 Err:     0 (0.00%)
+2017-07-24 23:12:04,255 INFO o.a.j.r.Summariser: summary +     12 in 00:00:32 =    0.4/s Avg:  2675 Min:   644 Max:  4350 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 23:12:04,255 INFO o.a.j.r.Summariser: summary =     51 in 00:02:19 =    0.4/s Avg:  2716 Min:   644 Max:  4384 Err:     0 (0.00%)
+2017-07-24 23:12:31,458 INFO o.a.j.r.Summariser: summary +     10 in 00:00:27 =    0.4/s Avg:  2720 Min:   688 Max:  4314 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 23:12:31,458 INFO o.a.j.r.Summariser: summary =     61 in 00:02:46 =    0.4/s Avg:  2716 Min:   644 Max:  4384 Err:     0 (0.00%)
+2017-07-24 23:13:01,109 INFO o.a.j.r.Summariser: summary +     11 in 00:00:30 =    0.4/s Avg:  2695 Min:   661 Max:  4255 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 23:13:01,110 INFO o.a.j.r.Summariser: summary =     72 in 00:03:16 =    0.4/s Avg:  2713 Min:   644 Max:  4384 Err:     0 (0.00%)
+2017-07-24 23:13:30,529 INFO o.a.j.r.Summariser: summary +     11 in 00:00:29 =    0.4/s Avg:  2673 Min:   650 Max:  4238 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 23:13:30,530 INFO o.a.j.r.Summariser: summary =     83 in 00:03:45 =    0.4/s Avg:  2708 Min:   644 Max:  4384 Err:     0 (0.00%)
+2017-07-24 23:14:02,650 INFO o.a.j.r.Summariser: summary +     12 in 00:00:32 =    0.4/s Avg:  2676 Min:   662 Max:  4242 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2017-07-24 23:14:02,650 INFO o.a.j.r.Summariser: summary =     95 in 00:04:17 =    0.4/s Avg:  2704 Min:   644 Max:  4384 Err:     0 (0.00%)
+2017-07-24 23:14:14,381 INFO o.a.j.t.JMeterThread: Thread is done: The thread Group 1-1
+2017-07-24 23:14:14,382 INFO o.a.j.t.JMeterThread: Thread finished: The thread Group 1-1
+2017-07-24 23:14:14,382 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-07-24 23:14:14,382 INFO o.a.j.s.FileServer: Close: /Users/jeb228/Development/DataDistributionAPI/testing/tests_and_results/OrganizationResearchAreas/OrganizationUris.csv
+2017-07-24 23:14:14,383 INFO o.a.j.r.Summariser: summary +      5 in 00:00:12 =    0.4/s Avg:  2346 Min:   650 Max:  3297 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+2017-07-24 23:14:14,383 INFO o.a.j.r.Summariser: summary =    100 in 00:04:29 =    0.4/s Avg:  2686 Min:   644 Max:  4384 Err:     0 (0.00%)

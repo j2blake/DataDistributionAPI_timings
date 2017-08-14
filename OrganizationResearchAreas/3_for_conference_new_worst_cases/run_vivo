@@ -1,0 +1,11 @@
+OPTIONS='test_plan=../OrganizationResearchAreas.jmx uri_file=../OrganizationUris.csv platform=vivo'
+
+cd _results
+st_scholars_timings $OPTIONS variant=ora_baseline
+st_scholars_timings $OPTIONS variant=ora_drill_L1
+st_scholars_timings $OPTIONS variant=ora_drill_L2
+st_scholars_timings $OPTIONS variant=ora_drill_L3
+st_scholars_timings $OPTIONS variant=ora_drill_L4
+st_scholars_timings $OPTIONS variant=ora_drill_L5
+st_scholars_timings $OPTIONS variant=ora_drill_L6
+st_scholars_timings $OPTIONS variant=ora_drill_L1L2

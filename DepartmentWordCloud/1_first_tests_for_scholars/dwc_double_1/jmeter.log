@@ -1,0 +1,89 @@
+2017/03/26 15:17:06 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: Loading user properties from: /Users/jeb228/Downloads/Software/JMeter/apache-jmeter-3.1/bin/user.properties 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: Loading system properties from: /Users/jeb228/Downloads/Software/JMeter/apache-jmeter-3.1/bin/system.properties 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: Setting JMeter property: dir.base=/Users/jeb228/Development/Scholars/visualizations/Performance/3_work_it_again/DepartmentWordCloud 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: Setting JMeter property: dir.output=/Users/jeb228/Development/Scholars/visualizations/Performance/3_work_it_again/DepartmentWordCloud/dwc_double_1 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: Setting JMeter property: action.name=dwc_double 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: Setting JMeter property: file.uris=/Users/jeb228/Development/Scholars/visualizations/Performance/3_work_it_again/DepartmentWordCloud/DepartmentUris.csv 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: Setting JMeter property: sample_variables=LABEL 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: java.version=1.8.0_51 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: os.arch=x86_64 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: os.version=10.12.3 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: Max memory     =514850816 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: Available Processors =4 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: JMeterHome=/Users/jeb228/Downloads/Software/JMeter/apache-jmeter-3.1 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: user.dir  =/Users/jeb228/Development/Scholars/visualizations/Performance/3_work_it_again/DepartmentWordCloud 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: PWD       =/Users/jeb228/Development/Scholars/visualizations/Performance/3_work_it_again/DepartmentWordCloud 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: IP: 10.0.1.33 Name: Blake-mac.local FullName: 10.0.1.33 
+2017/03/26 15:17:06 INFO  - jmeter.services.FileServer: Default base='/Users/jeb228/Development/Scholars/visualizations/Performance/3_work_it_again/DepartmentWordCloud' 
+2017/03/26 15:17:06 INFO  - jmeter.services.FileServer: Set new base='/Users/jeb228/Development/Scholars/visualizations/Performance/3_work_it_again/DepartmentWordCloud' 
+2017/03/26 15:17:06 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2017/03/26 15:17:06 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2017/03/26 15:17:06 INFO  - jmeter.save.SaveService: Using SaveService properties version 3.1 
+2017/03/26 15:17:06 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2017/03/26 15:17:06 INFO  - jmeter.save.SaveService: Loading file: /Users/jeb228/Development/Scholars/visualizations/Performance/3_work_it_again/DepartmentWordCloud/DepartmentWordClouds.jmx 
+2017/03/26 15:17:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/03/26 15:17:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/03/26 15:17:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/03/26 15:17:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/03/26 15:17:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2017/03/26 15:17:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2017/03/26 15:17:06 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2017/03/26 15:17:06 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2017/03/26 15:17:06 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [LABEL] 
+2017/03/26 15:17:06 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [LABEL] 
+2017/03/26 15:17:06 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2017/03/26 15:17:06 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2017/03/26 15:17:07 INFO  - jmeter.JMeter: Running test (1490555827048) 
+2017/03/26 15:17:07 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : The thread Group 
+2017/03/26 15:17:07 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group The thread Group. 
+2017/03/26 15:17:07 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/03/26 15:17:07 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2017/03/26 15:17:07 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2017/03/26 15:17:07 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2017/03/26 15:17:07 INFO  - jmeter.threads.JMeterThread: Thread started: The thread Group 1-1 
+2017/03/26 15:17:07 INFO  - jmeter.services.FileServer: Stored: /Users/jeb228/Development/Scholars/visualizations/Performance/3_work_it_again/DepartmentWordCloud/DepartmentUris.csv 
+2017/03/26 15:17:07 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = Blake-mac.local 
+2017/03/26 15:17:07 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2017/03/26 15:17:07 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2017/03/26 15:17:07 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2017/03/26 15:17:07 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2017/03/26 15:17:07 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2017/03/26 15:17:35 INFO  - jmeter.reporters.Summariser: summary +      5 in 00:00:28 =    0.2/s Avg:  5542 Min:  4352 Max:  7474 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2017/03/26 15:18:33 INFO  - jmeter.reporters.Summariser: summary +     10 in 00:00:58 =    0.2/s Avg:  5819 Min:   475 Max: 12816 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2017/03/26 15:18:33 INFO  - jmeter.reporters.Summariser: summary =     15 in 00:01:26 =    0.2/s Avg:  5727 Min:   475 Max: 12816 Err:     0 (0.00%) 
+2017/03/26 15:19:03 INFO  - jmeter.reporters.Summariser: summary +      7 in 00:00:30 =    0.2/s Avg:  4230 Min:   466 Max:  6141 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2017/03/26 15:19:03 INFO  - jmeter.reporters.Summariser: summary =     22 in 00:01:56 =    0.2/s Avg:  5251 Min:   466 Max: 12816 Err:     0 (0.00%) 
+2017/03/26 15:19:33 INFO  - jmeter.reporters.Summariser: summary +      6 in 00:00:30 =    0.2/s Avg:  5057 Min:  3524 Max:  5974 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2017/03/26 15:19:33 INFO  - jmeter.reporters.Summariser: summary =     28 in 00:02:26 =    0.2/s Avg:  5209 Min:   466 Max: 12816 Err:     0 (0.00%) 
+2017/03/26 15:20:00 INFO  - jmeter.reporters.Summariser: summary +      7 in 00:00:27 =    0.3/s Avg:  3807 Min:   441 Max:  6030 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2017/03/26 15:20:00 INFO  - jmeter.reporters.Summariser: summary =     35 in 00:02:53 =    0.2/s Avg:  4929 Min:   441 Max: 12816 Err:     0 (0.00%) 
+2017/03/26 15:20:32 INFO  - jmeter.reporters.Summariser: summary +      8 in 00:00:33 =    0.2/s Avg:  4092 Min:   435 Max:  5638 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2017/03/26 15:20:32 INFO  - jmeter.reporters.Summariser: summary =     43 in 00:03:26 =    0.2/s Avg:  4773 Min:   435 Max: 12816 Err:     0 (0.00%) 
+2017/03/26 15:21:04 INFO  - jmeter.reporters.Summariser: summary +      8 in 00:00:32 =    0.2/s Avg:  4000 Min:   500 Max:  5791 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2017/03/26 15:21:04 INFO  - jmeter.reporters.Summariser: summary =     51 in 00:03:58 =    0.2/s Avg:  4652 Min:   435 Max: 12816 Err:     0 (0.00%) 
+2017/03/26 15:21:30 INFO  - jmeter.reporters.Summariser: summary +      5 in 00:00:26 =    0.2/s Avg:  5143 Min:  3422 Max:  6372 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2017/03/26 15:21:30 INFO  - jmeter.reporters.Summariser: summary =     56 in 00:04:24 =    0.2/s Avg:  4696 Min:   435 Max: 12816 Err:     0 (0.00%) 
+2017/03/26 15:22:01 INFO  - jmeter.reporters.Summariser: summary +      8 in 00:00:31 =    0.3/s Avg:  3818 Min:   459 Max:  5779 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2017/03/26 15:22:01 INFO  - jmeter.reporters.Summariser: summary =     64 in 00:04:54 =    0.2/s Avg:  4586 Min:   435 Max: 12816 Err:     0 (0.00%) 
+2017/03/26 15:22:33 INFO  - jmeter.reporters.Summariser: summary +      8 in 00:00:32 =    0.2/s Avg:  4039 Min:   430 Max:  5911 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2017/03/26 15:22:33 INFO  - jmeter.reporters.Summariser: summary =     72 in 00:05:26 =    0.2/s Avg:  4525 Min:   430 Max: 12816 Err:     0 (0.00%) 
+2017/03/26 15:23:02 INFO  - jmeter.reporters.Summariser: summary +      6 in 00:00:29 =    0.2/s Avg:  4907 Min:  3570 Max:  5898 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2017/03/26 15:23:02 INFO  - jmeter.reporters.Summariser: summary =     78 in 00:05:56 =    0.2/s Avg:  4554 Min:   430 Max: 12816 Err:     0 (0.00%) 
+2017/03/26 15:23:33 INFO  - jmeter.reporters.Summariser: summary +      8 in 00:00:31 =    0.3/s Avg:  3845 Min:   430 Max:  5906 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2017/03/26 15:23:33 INFO  - jmeter.reporters.Summariser: summary =     86 in 00:06:27 =    0.2/s Avg:  4488 Min:   430 Max: 12816 Err:     0 (0.00%) 
+2017/03/26 15:24:02 INFO  - jmeter.reporters.Summariser: summary +      8 in 00:00:29 =    0.3/s Avg:  3596 Min:   439 Max:  5396 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2017/03/26 15:24:02 INFO  - jmeter.reporters.Summariser: summary =     94 in 00:06:55 =    0.2/s Avg:  4412 Min:   430 Max: 12816 Err:     0 (0.00%) 
+2017/03/26 15:24:24 INFO  - jmeter.threads.JMeterThread: Thread is done: The thread Group 1-1 
+2017/03/26 15:24:24 INFO  - jmeter.threads.JMeterThread: Thread finished: The thread Group 1-1 
+2017/03/26 15:24:24 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2017/03/26 15:24:24 INFO  - jmeter.services.FileServer: Close: /Users/jeb228/Development/Scholars/visualizations/Performance/3_work_it_again/DepartmentWordCloud/DepartmentUris.csv 
+2017/03/26 15:24:24 INFO  - jmeter.reporters.Summariser: summary +      6 in 00:00:22 =    0.3/s Avg:  3739 Min:   426 Max:  5732 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1 
+2017/03/26 15:24:24 INFO  - jmeter.reporters.Summariser: summary =    100 in 00:07:18 =    0.2/s Avg:  4372 Min:   426 Max: 12816 Err:     0 (0.00%) 

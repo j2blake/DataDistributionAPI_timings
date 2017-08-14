@@ -1,0 +1,6 @@
+             Run  Samples  Passes  Avg. elapsed  Bytes per pass Test Plan / URI file
+  hpq_baseline_1        1     100         641.2            1108 HomePageQuery.jmx / HomePageUris.csv
+ hpq_construct_1        1     100         758.8            1127 HomePageQuery.jmx / HomePageUris.csv
+    hpq_custom_1        1     100          97.5            1124 HomePageQuery.jmx / HomePageUris.csv
+hpq_indistinct_1        1     100         757.9            1127 HomePageQuery.jmx / HomePageUris.csv
+     hpq_split_1        1     100         760.2            1127 HomePageQuery.jmx / HomePageUris.csv

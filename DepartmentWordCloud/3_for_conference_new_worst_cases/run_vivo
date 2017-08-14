@@ -1,0 +1,9 @@
+OPTIONS='test_plan=../DepartmentWordClouds.jmx uri_file=../DepartmentUris.csv platform=vivo'
+
+cd _results
+st_scholars_timings $OPTIONS variant=dwc_optionals
+st_scholars_timings $OPTIONS variant=dwc_unions
+st_scholars_timings $OPTIONS variant=dwc_3queries
+st_scholars_timings $OPTIONS variant=dwc_drill
+st_scholars_timings $OPTIONS variant=dwc_double
+st_scholars_timings $OPTIONS variant=dwc_deeper
